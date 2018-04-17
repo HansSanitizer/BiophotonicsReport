@@ -116,9 +116,16 @@ Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimen
 	\subsection{\label{sec:level2} Scope of DSP Methods Used}
 	This report will focus on image filtering methods which can be applied using Matlab.
 	(Talk more about types of methods used.)
+	\subsection{\label{sec:level2} Wiener Filter}
+	The 2D Wiener filter is a processing technique which is capable of not only improving resolution but as well signal-to-noise (SNR) ratio of particular image. This low-pass filter is an optimal trade-off between inverse filtering and noise smoothing. This filter is also referred to as a local linear minimum mean square error which means [LLMMSE] it is the optimal estimator in the sense of mean squared error (MSE). Where LLMMSE and MSE is determined by:
+LLMMSE:
+MSE:
+Where N is the length, then there are N equations in the N unrestricted values of h[n] and h[m] is the impulse response of the filter.
+cite: Signals, systems, interference. Author Alan V. Oppenheim and George C. Verghese. Company Massachusetts Institute of Technology.
 
 	\section{\label{sec:level1} Obtaining 2D OCT Images}
 	While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to extract 2D images from the provided .mat files using a script published on MathWorks file exchange called "3D Volume Visualization" \cite{stough}.
+
 
 	\section{\label{sec:level1} Conclusion}
 

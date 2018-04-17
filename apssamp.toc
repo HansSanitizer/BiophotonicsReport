@@ -13,6 +13,7 @@
 \contentsline {subsection}{\numberline {A} The Problem of Speckle Noise}{1}{}
 \contentsline {subsection}{\numberline {B} Possible Solutions for Speckle Noise}{1}{}
 \contentsline {subsection}{\numberline {C} Scope of DSP Methods Used}{2}{}
+\contentsline {subsection}{\numberline {D} Wiener Filter}{2}{}
 \contentsline {section}{\numberline {II} Obtaining 2D OCT Images}{2}{}
 \contentsline {section}{\numberline {III} Conclusion}{2}{}
 \contentsline {section}{\numberline {}References}{2}{}
