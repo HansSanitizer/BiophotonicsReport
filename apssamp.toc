@@ -1,4 +1,5 @@
 \contentsline {title}{Optical Coherence Tomography: \\ Mitigation of Scattering Using DSP Techniques}{1}{}
+\contentsline {abstract}{Abstract}{1}{}
 \tocdepth@munge 
 \contentsline {section}{\numberline {}Contents}{1}{}
 \tocdepth@restore 
@@ -11,5 +12,7 @@
 \contentsline {section}{\numberline {I}OCT Identified Problem and Suggested Solution}{1}{}
 \contentsline {subsection}{\numberline {A} The Problem of Speckle Noise}{1}{}
 \contentsline {subsection}{\numberline {B} Possible Solutions for Speckle Noise}{1}{}
-\contentsline {section}{\numberline {II} Conclusion}{1}{}
+\contentsline {subsection}{\numberline {C} Scope of DSP Methods Used}{2}{}
+\contentsline {section}{\numberline {II} Obtaining 2D OCT Images}{2}{}
+\contentsline {section}{\numberline {III} Conclusion}{2}{}
 \contentsline {section}{\numberline {}References}{2}{}
