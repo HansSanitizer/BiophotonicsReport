@@ -1,0 +1,23 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Huang et~al.}{1991}]{Huang91}
+Huang, D., Swanson, E.~A., Lin, C.~P., Schuman, J.~S., Stinson, W.~G., Chang,
+  W., Hee, M.~R., Flotte, T., Gregory, K., Puliafito, C.~A., and Et, A. (1991).
+\newblock Optical coherence tomography.
+\newblock {\em Science}, 254(5035):1178--1181.
+
+\bibitem[\protect\astroncite{Popescu et~al.}{2006}]{Popescu2007}
+Popescu, D.~P., Hewko, M.~D., and Sowa, M.~G. (2006).
+\newblock Speckle noise attenuation in optical coherence tomography by
+  compounding images acquired at different positions of the sample.
+\newblock {\em Optics Communications}, 269.
+
+\bibitem[\protect\astroncite{Sander and Li}{2011}]{sander_optical_2011}
+Sander, B. and Li, X.~Q. (2011).
+\newblock Optical {Coherence} {Tomography}: {A} review of current technology
+  and its implications for clinical applications.
+\newblock {\em Scandinavian Journal of Optometry and Visual Science},
+  4(2):1--4.
+
+\end{thebibliography}
