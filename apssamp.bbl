@@ -1,6 +1,12 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{rad}{}]{radarlee}
+Radar {Enhanced} {Lee} {Filter}.
+\newblock
+  \url{http://www.pcigeomatics.com/geomatica-help/concepts/orthoengine_c/Chapter_825.html}.
+\newblock [Online; accessed 18-April-2008].
+
 \bibitem[\protect\astroncite{Bhende et~al.}{2018}]{bhende_optical_2018}
 Bhende, M., Shetty, S., Parthasarathy, M.~K., and Ramya, S. (2018).
 \newblock Optical coherence tomography: {A} guide to interpretation of common
@@ -12,6 +18,20 @@ Huang, D., Swanson, E.~A., Lin, C.~P., Schuman, J.~S., Stinson, W.~G., Chang,
   W., Hee, M.~R., Flotte, T., Gregory, K., Puliafito, C.~A., and Et, A. (1991).
 \newblock Optical coherence tomography.
 \newblock {\em Science}, 254(5035):1178--1181.
+
+\bibitem[\protect\astroncite{Mastriani and Giraldez}{}]{leefilter}
+Mastriani, M. and Giraldez, A.~E.
+\newblock Enhanced directional smoothing algorithm for edge-preserving
+  smoothing of synthetic-aperture radar images.
+\newblock
+  \url{http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/speckle-function.htm#GUID-F45976F8-09C5-4344-B249-FBAA03517B8A}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{Oppenheim and C.}{2015}]{Oppenheim_2015}
+Oppenheim, A.~V. and C., V.~G. (2015).
+\newblock {\em Optical {Coherence} {Tomography}: {Principles} and
+  {Applications}}.
+\newblock Pearson.
 
 \bibitem[\protect\astroncite{Popescu et~al.}{2006}]{Popescu2007}
 Popescu, D.~P., Hewko, M.~D., and Sowa, M.~G. (2006).
@@ -29,6 +49,9 @@ Sander, B. and Li, X.~Q. (2011).
 \bibitem[\protect\astroncite{Stough}{}]{stough}
 Stough, J.
 \newblock 3d {Volume} {Visualization} - {File} {Exchange} - {MATLAB} {Central}.
+\newblock
+  \url{http://www.mathworks.com/matlabcentral/fileexchange/37268-3d-volume-visualization}.
+\newblock [Online; accessed 18-April-2008].
 
 \bibitem[\protect\astroncite{{Tahereh Mahmudi} et~al.}{2014}]{tahereh_2014}
 {Tahereh Mahmudi}, {Rahele Kafieh}, {Hossein Rabbani}, {Alireza Mehri dehnavi},

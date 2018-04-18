@@ -44,6 +44,9 @@ pra,
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage{booktabs}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{url}
 %\usepackage{tocloft}
 %\usepackage{hyperref}% add hypertext capabilities
 %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
@@ -117,12 +120,23 @@ Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimen
 	\subsection{\label{sec:level2} Possible Solutions for Speckle Noise}
 	As technology progress in imaging processing, techniques are being developed to help reduces the effects of speckle noise when using OCT. Some of these methods include decreasing spatial and temporal coherence of the laser used. While more trivial techniques such as phase-domain processing and zero-adjustments are used to improve image quality due to speckle noise. \cite{Popescu2007}
 
-	\section{\label{sec:level1} Obtaining 2D OCT Images}
-	While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to view an interactive 3D volume from the provided .mat files using a script published on MathWorks file exchange titled "3D Volume Visualization" \cite{stough}.
+	\section{\label{sec:level1} OCT Image Aquisition and Preparation}
 
+	\subsection{\label{sec:level2} Aquiring and Visualizing OCT Images}
+	While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to view an interactive 3D volume from the provided .mat files using a script published on MathWorks file exchange titled '3D Volume Visualization' \cite{stough}. A capture of the visualizan can be seen in figure \ref{fig:3dvol}.
+
+	\subsection{\label{sec:level2} Slicing and Preparing a 2D Image for Processing}
+	Upon importing the .mat files into Matlab, they took the form of a 650 x 512 x 128 double data type. The following Matlab code shows the process of taking the middle XY slice and creating a greyscale image.
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Figures/3dvol}
+		\caption{3D Volume Visualization Capture}
+		\label{fig:3dvol}
+	\end{figure}
 
 	\section{\label{sec:level1} Scope of DSP Methods Used}
 	This report will focus on 2D image filtering methods which can be applied using Matlab. To apply the supplied image filters to these images the following code was used to take a slice of an image in the XY plane.
+
 	$$\text{(Talk more about types of methods used.)}$$
 	\subsection{\label{sec:level2} Wiener Filter}
 	The 2D Wiener filter is a processing technique which is capable of not only improving resolution but as well signal-to-noise (SNR) ratio of particular image. This low-pass filter is an optimal trade-off between inverse filtering and noise smoothing. This filter is also referred to as a local linear minimum mean square error which means [LLMMSE] it is the optimal estimator in the sense of mean squared error (MSE). Where LLMMSE and MSE is determined by:
@@ -152,14 +166,40 @@ $$
 
 $$R_{ee}[m]=R_{yy}[m]-R_{yy}[m] = R_{yy}[m]-h[m] \times R_{xy}[m]$$
 
-Where $R_{xx}$ is the received signal, N is the length, then there are N equations in the N unrestricted values of h[n] and h[m] is the impulse response of the filter.
-cite: Signals, systems, interference. Author Alan V. Oppenheim and George C. Verghese. Company Massachusetts Institute of Technology.
+Where $R_{xx}$ is the received signal, N is the length, then there are N equations in the N unrestricted values of h[n] and h[m] is the impulse response of the filter \cite{Oppenheim_2015}.
+
 
 \subsection{\label{sec:level2} Enhanced Lee Filter}
-The Lee filter applies a spatial filter to each pixel which filters data based on local statistics calculated within a square window. The value of the center pixel is replaced by a value calculated using the neighbouring pixels. Implements similar characteristics of the Wiener filter in the sense it uses MSE but also has edge preserving features. The pixels are classified into:
+The Lee filter applies a spatial filter to each pixel which filters data based on local statistics calculated within a square window. The value of the center pixel is replaced by a value calculated using the neighbouring pixels. Implements similar characteristics of the Wiener filter in the sense it uses MSE but also has edge preserving features \cite{leefilter}. The pixels are classified into:
+\\
 Homogenous: where the pixel value is replaced by an average of the filter window
+\\
 Heterogenous: where the pixel value is replaced by a weighted average
+\\
 Point: where the pixel value is unchanged.
+\\
+\\
+The resultant gray value R for the pixels is then represented as:
+
+$$R = I_{m} for C_{i} \leq C_{u}$$
+$$R = I_{m} \times W+I_{c} \times (1-W) \text{ for } C_{u}<C_{i}<C_{max}$$
+$$R = I_{c} for C_{i} \geq C_{max}$$
+
+Where:
+\\
+	$I_{m}$ = mean value of intensity within the kernel
+	\\
+	$I_{c}$ = center pixel in the kernel
+	\\
+	$C_{i}$ = S/$I_{m}$
+	\\
+	$C_{u}$ = $\sqrt{1/(number of locks)}$
+	\\
+	W				= $\exp{-\zeta(C_{i}-C_{u})/(C_{max}-C_{i})}$
+	\\
+	S       = standard deviation of intensity within the kernel
+	\cite{radarlee}
+
 
 
 

@@ -1,19 +1,22 @@
-\contentsline {title}{Optical Coherence Tomography: \\ Mitigation of Scattering Using DSP Techniques}{1}{}
-\contentsline {abstract}{Abstract}{1}{}
+\contentsline {title}{Optical Coherence Tomography: \\ Mitigation of Scattering Using DSP Techniques}{1}{section*.2}
+\contentsline {abstract}{Abstract}{1}{section*.1}
 \tocdepth@munge 
-\contentsline {section}{\numberline {}Contents}{1}{}
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}
 \tocdepth@restore 
-\contentsline {chapter}{Contents}{1}{}
-\contentsline {section}{\numberline {}List of Figures}{1}{}
-\contentsline {chapter}{List of Figures}{1}{}
-\contentsline {section}{\numberline {}List of Tables}{1}{}
-\contentsline {chapter}{List of Tables}{1}{}
-\contentsline {subsection}{\numberline {A} Introduction}{1}{}
-\contentsline {section}{\numberline {I}OCT Identified Problem and Suggested Solution}{1}{}
-\contentsline {subsection}{\numberline {A} The Problem of Speckle Noise}{1}{}
-\contentsline {subsection}{\numberline {B} Possible Solutions for Speckle Noise}{1}{}
-\contentsline {subsection}{\numberline {C} Scope of DSP Methods Used}{2}{}
-\contentsline {subsection}{\numberline {D} Wiener Filter}{2}{}
-\contentsline {section}{\numberline {II} Obtaining 2D OCT Images}{2}{}
-\contentsline {section}{\numberline {III} Conclusion}{2}{}
-\contentsline {section}{\numberline {}References}{2}{}
+\contentsline {chapter}{Contents}{1}{section*.3}
+\contentsline {section}{\numberline {}List of Figures}{1}{section*.4}
+\contentsline {chapter}{List of Figures}{1}{section*.4}
+\contentsline {section}{\numberline {}List of Tables}{1}{section*.5}
+\contentsline {chapter}{List of Tables}{1}{section*.5}
+\contentsline {subsection}{\numberline {A} Introduction}{1}{section*.6}
+\contentsline {section}{\numberline {I}OCT Identified Problem and Suggested Solution}{1}{section*.7}
+\contentsline {subsection}{\numberline {A} The Problem of Speckle Noise}{1}{section*.8}
+\contentsline {subsection}{\numberline {B} Possible Solutions for Speckle Noise}{2}{section*.9}
+\contentsline {section}{\numberline {II} OCT Image Aquisition and Preparation}{2}{section*.10}
+\contentsline {subsection}{\numberline {A} Aquiring and Visualizing OCT Images}{2}{section*.11}
+\contentsline {subsection}{\numberline {B} Slicing and Preparing a 2D Image for Processing}{2}{section*.12}
+\contentsline {section}{\numberline {III} Scope of DSP Methods Used}{2}{section*.13}
+\contentsline {subsection}{\numberline {A} Wiener Filter}{2}{section*.14}
+\contentsline {subsection}{\numberline {B} Enhanced Lee Filter}{2}{section*.15}
+\contentsline {section}{\numberline {IV} Conclusion}{3}{section*.16}
+\contentsline {section}{\numberline {}References}{3}{section*.17}
