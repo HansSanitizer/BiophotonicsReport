@@ -111,20 +111,56 @@ Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimen
 	A problem with using an OCT interferometer is that ‘speckle’ noise exists, which ultimately reduces the quality of the image. Speckle is a phenomenon that is caused by interference of the reflected wave at the photo-detector. Speckle noise is evident when trying to image non-fluid structures (such as hard tissue). As the wave propagates it becomes distorted due to “low-angle multiple forward scattering and diffuse multiple backscattering of coherent photons”. \cite{Popescu2007}
 
 	In OCT interferometry imaging, photons are detected after one backscattering event for most relevant information, but when a wave is propagated through a dense biological sample it experiences numerous scattering events (in OCT interferometry). These scattering events increase the likelihood for photons to change their travel distance comparative to their airborne path which results in speckle noise reducing the image quality. \cite{Popescu2007}
+
+	To display the effects of speckling on an image refer to Figure \ref{fig:specklefilter2}. Using $imnoise(I,'speckle',v)$ in Matlab to create a filter that would add multiplicative noise to an image. As seen on the left the image resolution is decreased significantly after adding speckling noise especially in the area of high light reflectivity off of the table.
+
 	\subsection{\label{sec:level2} Possible Solutions for Speckle Noise}
 	As technology progress in imaging processing, techniques are being developed to help reduces the effects of speckle noise when using OCT. Some of these methods include decreasing spatial and temporal coherence of the laser used. While more trivial techniques such as phase-domain processing and zero-adjustments are used to improve image quality due to speckle noise. \cite{Popescu2007}
-	\subsection{\label{sec:level2} Scope of DSP Methods Used}
-	This report will focus on image filtering methods which can be applied using Matlab.
-	(Talk more about types of methods used.)
-	\subsection{\label{sec:level2} Wiener Filter}
-	The 2D Wiener filter is a processing technique which is capable of not only improving resolution but as well signal-to-noise (SNR) ratio of particular image. This low-pass filter is an optimal trade-off between inverse filtering and noise smoothing. This filter is also referred to as a local linear minimum mean square error which means [LLMMSE] it is the optimal estimator in the sense of mean squared error (MSE). Where LLMMSE and MSE is determined by:
-LLMMSE:
-MSE:
-Where N is the length, then there are N equations in the N unrestricted values of h[n] and h[m] is the impulse response of the filter.
-cite: Signals, systems, interference. Author Alan V. Oppenheim and George C. Verghese. Company Massachusetts Institute of Technology.
 
 	\section{\label{sec:level1} Obtaining 2D OCT Images}
-	While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to extract 2D images from the provided .mat files using a script published on MathWorks file exchange called "3D Volume Visualization" \cite{stough}.
+	While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to view an interactive 3D volume from the provided .mat files using a script published on MathWorks file exchange titled "3D Volume Visualization" \cite{stough}.
+
+
+	\section{\label{sec:level1} Scope of DSP Methods Used}
+	This report will focus on 2D image filtering methods which can be applied using Matlab. To apply the supplied image filters to these images the following code was used to take a slice of an image in the XY plane.
+	$$\text{(Talk more about types of methods used.)}$$
+	\subsection{\label{sec:level2} Wiener Filter}
+	The 2D Wiener filter is a processing technique which is capable of not only improving resolution but as well signal-to-noise (SNR) ratio of particular image. This low-pass filter is an optimal trade-off between inverse filtering and noise smoothing. This filter is also referred to as a local linear minimum mean square error which means [LLMMSE] it is the optimal estimator in the sense of mean squared error (MSE). Where LLMMSE and MSE is determined by:
+$$
+\begin{bmatrix}
+R_{xx}[0] & R_{xx}[-1] & ... & R_{xx}[1-N]\\
+R_{xx}[1] & R_{xx}[0] & ... & R_{xx}[2-N]\\
+\vdots & \vdots & \ddots & \vdots \\
+R_{xx}[N-1] & R_{xx}[N-2] & ... & R_{xx}[0]
+\end{bmatrix}
+\begin{bmatrix}
+h[0]\\
+h[1]\\
+\vdots\\
+h[N-1]
+\end{bmatrix}
+$$
+$$
+=
+\begin{bmatrix}
+R_{yx}[0]\\
+R_{yx}[1]\\
+\vdots\\
+R_{yx}[N-1]
+\end{bmatrix}
+$$
+
+$$R_{ee}[m]=R_{yy}[m]-R_{yy}[m] = R_{yy}[m]-h[m] \times R_{xy}[m]$$
+
+Where $R_{xx}$ is the received signal, N is the length, then there are N equations in the N unrestricted values of h[n] and h[m] is the impulse response of the filter.
+cite: Signals, systems, interference. Author Alan V. Oppenheim and George C. Verghese. Company Massachusetts Institute of Technology.
+
+\subsection{\label{sec:level2} Enhanced Lee Filter}
+The Lee filter applies a spatial filter to each pixel which filters data based on local statistics calculated within a square window. The value of the center pixel is replaced by a value calculated using the neighbouring pixels. Implements similar characteristics of the Wiener filter in the sense it uses MSE but also has edge preserving features. The pixels are classified into:
+Homogenous: where the pixel value is replaced by an average of the filter window
+Heterogenous: where the pixel value is replaced by a weighted average
+Point: where the pixel value is unchanged.
+
 
 
 	\section{\label{sec:level1} Conclusion}
