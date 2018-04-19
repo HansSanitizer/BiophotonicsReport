@@ -71,7 +71,7 @@ options:
   $PATH: 'C:\texlive\2017\bin\win32'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2018-04-18T01:12:47.649Z
+    timeStamp: 2018-04-19T06:05:59.800Z
     jobNames: []
     value:
       severity: info
@@ -130,53 +130,70 @@ files:
       $PATH: 'C:\texlive\2017\bin\win32'
     type: ParsedYAML
   apssamp.tex:
-    timeStamp: 2018-04-18T01:15:47.876Z
+    timeStamp: 2018-04-19T06:10:49.369Z
     jobNames: []
-    hash: qtKbf+7eE59MeRxx0P3OuRR8Z7f09N2v+B5vioKCh8E=
+    hash: lNFnU2Vbh0O0M7R8/jlD/NbpmWegIW+t0BRafUrjaR8=
     type: LaTeX
     subType: revtex4-1
   'C:\Users\J-Bro\AppData\Roaming\dicy\config.yaml':
-    timeStamp: 2018-04-18T01:12:49.102Z
+    timeStamp: 2018-04-19T06:05:59.900Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   apssamp.blg:
-    timeStamp: 2018-04-18T01:15:48.737Z
+    timeStamp: 2018-04-19T06:10:54.136Z
     jobNames: []
-    hash: lV+Q2N0TnqK984Qm5PHokvvjm9sEo3iLawxgx8m2IgE=
+    hash: JiJTmoWlKYqJyHllQyT/wc8Fooso/L/ITvIwFSgEhGo=
     type: BibTeXLog
     subType: BibTeX
   apssamp.log:
-    timeStamp: 2018-04-18T01:15:49.480Z
+    timeStamp: 2018-04-19T06:10:55.353Z
     jobNames: []
-    hash: POz95vLdN5SfHFRfG7YDRn/VmGmljvD5rL6LUjJ3t/A=
+    hash: kHC8SqcXztvUAayQd/skrb0hNLpGJhzOteU+H4gkNZs=
     type: LaTeXLog
     subType: pdfTeX
   apssamp.fls-ParsedFileListing:
-    timeStamp: 2018-04-18T01:12:51.211Z
+    timeStamp: 2018-04-19T06:10:55.475Z
     jobNames: []
     value:
       messages: []
       inputs:
+        - Figures\2dslice.png
+        - Figures\3dvol.png
         - Figures\specklefilter2.png
         - apssamp.aux
         - apssamp.bbl
         - apssamp.lof
         - apssamp.lot
+        - apssamp.out
         - apssamp.tex
         - apssamp.toc
         - 'c:\texlive\2017\texmf-dist\fonts\map\fontname\texfonts.map'
         - >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
         - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+        - >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm'
         - >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
         - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+        - >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
         - >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msam10.tfm
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msam5.tfm'
@@ -189,30 +206,44 @@ files:
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx10.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx12.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx5.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx7.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmib10.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr12.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx12.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx9.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmex10.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi10.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi7.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr10.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr9.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb'
         - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti9.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb'
         - 'c:\texlive\2017\texmf-dist\tex\context\base\mkii\supp-pdf.mkii'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\etexcmds.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifluatex.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifpdf.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\infwarerr.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvdefinekeys.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvsetkeys.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ltxcmds.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\amsfonts.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\amssymb.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\umsa.fd'
@@ -223,17 +254,30 @@ files:
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amsopn.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amstext.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\booktabs\booktabs.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\graphics.cfg'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics-def\pdftex.def'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics\graphics.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics\graphicx.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics\keyval.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics\trig.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hpdftex.def'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def'
         - 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\epstopdf-sys.cfg'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\natbib\natbib.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\epstopdf-base.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\grfext.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\kvoptions.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\revtex\aps10pt4-1.rtx'
         - 'c:\texlive\2017\texmf-dist\tex\latex\revtex\aps4-1.rtx'
         - 'c:\texlive\2017\texmf-dist\tex\latex\revtex\revsymb4-1.sty'
@@ -252,13 +296,14 @@ files:
         - apssamp.lof
         - apssamp.log
         - apssamp.lot
+        - apssamp.out
         - apssamp.pdf
         - apssamp.toc
         - apssampNotes.bib
       calls: []
     type: ParsedFileListing
   apssamp.log-ParsedLaTeXLog:
-    timeStamp: 2018-04-18T01:15:49.544Z
+    timeStamp: 2018-04-19T06:10:55.469Z
     jobNames: []
     value:
       messages:
@@ -880,6 +925,699 @@ files:
             range:
               start: 202
               end: 202
+        - name: pdfTeX
+          severity: info
+          text: listings 2015/06/04 1.6 (Carsten Heinz)
+          source:
+            file: apssamp.tex
+          log:
+            file: apssamp.log
+            range:
+              start: 241
+              end: 241
+        - name: pdfTeX
+          severity: info
+          text: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 243
+              end: 243
+        - severity: info
+          name: pdfTeX
+          category: Package color
+          text: 'Driver file: pdftex.def'
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty'
+            range:
+              start: 147
+              end: 147
+          log:
+            file: apssamp.log
+            range:
+              start: 247
+              end: 247
+        - name: pdfTeX
+          severity: info
+          text: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 249
+              end: 249
+        - name: pdfTeX
+          severity: info
+          text: >-
+            hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref
+            (HO)
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 251
+              end: 252
+        - name: pdfTeX
+          severity: info
+          text: 'hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)'
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 254
+              end: 254
+        - name: pdfTeX
+          severity: info
+          text: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 255
+              end: 255
+        - name: pdfTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 256
+              end: 256
+        - name: pdfTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 257
+              end: 257
+        - name: pdfTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 258
+              end: 258
+        - severity: info
+          name: pdfTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 259
+              end: 259
+        - name: pdfTeX
+          severity: info
+          text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 260
+              end: 260
+        - severity: info
+          name: pdfTeX
+          category: Package ifvtex
+          text: VTeX not detected.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 261
+              end: 261
+        - name: pdfTeX
+          severity: info
+          text: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 262
+              end: 262
+        - name: pdfTeX
+          severity: info
+          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 263
+              end: 263
+        - name: pdfTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 264
+              end: 264
+        - severity: info
+          name: pdfTeX
+          category: Package etexcmds
+          text: >-
+            Could not find \expanded. That can mean that you are not using
+            pdfTeX 1.50 or that some package has redefined \expanded. In the
+            latter case, load this package earlier.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 265
+              end: 268
+        - name: pdfTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 269
+              end: 269
+        - name: pdfTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 270
+              end: 270
+        - name: pdfTeX
+          severity: info
+          text: >-
+            pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 271
+              end: 272
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 273
+              end: 273
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 274
+              end: 274
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 275
+              end: 275
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode found.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 276
+              end: 276
+        - name: pdfTeX
+          severity: info
+          text: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 277
+              end: 277
+        - name: pdfTeX
+          severity: info
+          text: >-
+            bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers
+            (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 278
+              end: 279
+        - name: pdfTeX
+          severity: info
+          text: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 280
+              end: 280
+        - name: pdfTeX
+          severity: info
+          text: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 281
+              end: 281
+        - severity: info
+          name: pdfTeX
+          category: Package hobsub
+          text: Skipping package `hobsub' (already loaded).
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 283
+              end: 283
+        - name: pdfTeX
+          severity: info
+          text: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 284
+              end: 284
+        - name: pdfTeX
+          severity: info
+          text: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 285
+              end: 285
+        - name: pdfTeX
+          severity: info
+          text: xcolor-patch 2016/05/16 xcolor patch
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 286
+              end: 286
+        - name: pdfTeX
+          severity: info
+          text: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 287
+              end: 287
+        - name: pdfTeX
+          severity: info
+          text: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 288
+              end: 288
+        - name: pdfTeX
+          severity: info
+          text: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 289
+              end: 289
+        - name: pdfTeX
+          severity: info
+          text: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+          source:
+            file: >-
+              c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty
+          log:
+            file: apssamp.log
+            range:
+              start: 290
+              end: 290
+        - name: pdfTeX
+          severity: info
+          text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 292
+              end: 292
+        - name: pdfTeX
+          severity: info
+          text: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 294
+              end: 294
+        - name: pdfTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\kvoptions.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 296
+              end: 296
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 4498
+              end: 4498
+          log:
+            file: apssamp.log
+            range:
+              start: 308
+              end: 308
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 4503
+              end: 4503
+          log:
+            file: apssamp.log
+            range:
+              start: 309
+              end: 309
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 4506
+              end: 4506
+          log:
+            file: apssamp.log
+            range:
+              start: 310
+              end: 310
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Plain pages OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 4513
+              end: 4513
+          log:
+            file: apssamp.log
+            range:
+              start: 311
+              end: 311
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Backreferencing OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 4518
+              end: 4518
+          log:
+            file: apssamp.log
+            range:
+              start: 312
+              end: 312
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Implicit mode ON; LaTeX internals redefined.
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 313
+              end: 313
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Bookmarks ON
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 4751
+              end: 4751
+          log:
+            file: apssamp.log
+            range:
+              start: 314
+              end: 314
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \href
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 5015
+              end: 5015
+          log:
+            file: apssamp.log
+            range:
+              start: 315
+              end: 315
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \url
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 5104
+              end: 5104
+          log:
+            file: apssamp.log
+            range:
+              start: 317
+              end: 317
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper figures OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6358
+              end: 6358
+          log:
+            file: apssamp.log
+            range:
+              start: 322
+              end: 322
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link nesting OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6363
+              end: 6363
+          log:
+            file: apssamp.log
+            range:
+              start: 323
+              end: 323
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Hyper index ON
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6366
+              end: 6366
+          log:
+            file: apssamp.log
+            range:
+              start: 324
+              end: 324
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: backreferencing OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6373
+              end: 6373
+          log:
+            file: apssamp.log
+            range:
+              start: 325
+              end: 325
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link coloring OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6378
+              end: 6378
+          log:
+            file: apssamp.log
+            range:
+              start: 326
+              end: 326
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link coloring with OCG OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6383
+              end: 6383
+          log:
+            file: apssamp.log
+            range:
+              start: 327
+              end: 327
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: PDF/A mode OFF
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6388
+              end: 6388
+          log:
+            file: apssamp.log
+            range:
+              start: 328
+              end: 328
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6428
+              end: 6428
+          log:
+            file: apssamp.log
+            range:
+              start: 329
+              end: 329
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+            range:
+              start: 6432
+              end: 6432
+          log:
+            file: apssamp.log
+            range:
+              start: 330
+              end: 330
+        - name: pdfTeX
+          severity: info
+          text: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 343
+              end: 343
+        - severity: info
+          name: pdfTeX
+          category: Package uniquecounter
+          text: New unique counter `rerunfilecheck'
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty'
+            range:
+              start: 282
+              end: 282
+          log:
+            file: apssamp.log
+            range:
+              start: 344
+              end: 345
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -889,13 +1627,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 221
-              end: 222
+              start: 349
+              end: 350
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -903,13 +1641,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 223
-              end: 223
+              start: 351
+              end: 351
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -917,13 +1655,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 225
-              end: 225
+              start: 353
+              end: 353
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -931,13 +1669,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 226
-              end: 226
+              start: 354
+              end: 354
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -945,13 +1683,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 227
-              end: 227
+              start: 355
+              end: 355
         - severity: warning
           name: pdfTeX
           category: LaTeX
@@ -961,8 +1699,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 232
-              end: 232
+              start: 360
+              end: 360
         - severity: warning
           name: pdfTeX
           category: LaTeX
@@ -972,30 +1710,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 235
-              end: 235
-        - severity: warning
-          name: pdfTeX
-          category: LaTeX
-          text: 'Label `sec:level2'' multiply defined.'
-          source:
-            file: apssamp.aux
-          log:
-            file: apssamp.log
-            range:
-              start: 238
-              end: 238
-        - severity: warning
-          name: pdfTeX
-          category: LaTeX
-          text: 'Label `sec:level2'' multiply defined.'
-          source:
-            file: apssamp.aux
-          log:
-            file: apssamp.log
-            range:
-              start: 241
-              end: 241
+              start: 363
+              end: 363
         - severity: warning
           name: pdfTeX
           category: LaTeX
@@ -1005,8 +1721,30 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 244
-              end: 244
+              start: 366
+              end: 366
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 369
+              end: 369
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 372
+              end: 372
         - severity: warning
           name: pdfTeX
           category: LaTeX
@@ -1016,8 +1754,96 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 247
-              end: 247
+              start: 375
+              end: 375
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 378
+              end: 378
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 381
+              end: 381
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 384
+              end: 384
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level1'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 387
+              end: 387
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 390
+              end: 390
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 393
+              end: 393
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 396
+              end: 396
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level1'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 399
+              end: 399
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1025,13 +1851,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 252
-              end: 253
+              start: 404
+              end: 405
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1039,13 +1865,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 254
-              end: 255
+              start: 406
+              end: 407
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1053,13 +1879,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 256
-              end: 257
+              start: 408
+              end: 409
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1067,13 +1893,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 258
-              end: 259
+              start: 410
+              end: 411
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1081,13 +1907,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 260
-              end: 261
+              start: 412
+              end: 413
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1095,13 +1921,27 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 62
-              end: 62
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 262
-              end: 263
+              start: 414
+              end: 415
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for PD1/pdf/m/n ... okay
+          source:
+            file: apssamp.tex
+            range:
+              start: 90
+              end: 90
+          log:
+            file: apssamp.log
+            range:
+              start: 416
+              end: 417
         - name: pdfTeX
           severity: info
           text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1110,18 +1950,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 278
-              end: 278
-        - name: pdfTeX
-          severity: info
-          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\infwarerr.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 280
-              end: 280
+              start: 432
+              end: 432
         - name: pdfTeX
           severity: info
           text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -1130,159 +1960,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 282
-              end: 282
-        - name: pdfTeX
-          severity: info
-          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvdefinekeys.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 284
-              end: 284
-        - name: pdfTeX
-          severity: info
-          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ltxcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 286
-              end: 286
-        - name: pdfTeX
-          severity: info
-          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\kvoptions.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 288
-              end: 288
-        - name: pdfTeX
-          severity: info
-          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvsetkeys.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 290
-              end: 290
-        - name: pdfTeX
-          severity: info
-          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\etexcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 292
-              end: 292
-        - name: pdfTeX
-          severity: info
-          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifluatex.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 294
-              end: 294
-        - severity: info
-          name: pdfTeX
-          category: Package ifluatex
-          text: LuaTeX not detected.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifluatex.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 295
-              end: 295
-        - severity: info
-          name: pdfTeX
-          category: Package etexcmds
-          text: >-
-            Could not find \expanded. That can mean that you are not using
-            pdfTeX 1.50 or that some package has redefined \expanded. In the
-            latter case, load this package earlier.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\etexcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 297
-              end: 300
-        - name: pdfTeX
-          severity: info
-          text: >-
-            pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX
-            (HO)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 302
-              end: 303
-        - name: pdfTeX
-          severity: info
-          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifpdf.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 305
-              end: 305
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: LuaTeX not detected.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 307
-              end: 307
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: \pdf@primitive is available.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 308
-              end: 308
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: \pdf@ifprimitive is available.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 309
-              end: 309
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: \pdfdraftmode found.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 310
-              end: 310
+              start: 434
+              end: 434
         - severity: info
           name: pdfTeX
           category: Package epstopdf-base
@@ -1295,8 +1974,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 312
-              end: 313
+              start: 436
+              end: 437
         - severity: info
           name: pdfTeX
           category: Package grfext
@@ -1312,8 +1991,112 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 314
-              end: 317
+              start: 438
+              end: 441
+        - severity: info
+          name: pdfTeX
+          category: Package hyperref
+          text: Link coloring OFF
+          source:
+            file: apssamp.tex
+            range:
+              start: 90
+              end: 90
+          log:
+            file: apssamp.log
+            range:
+              start: 448
+              end: 448
+        - name: pdfTeX
+          severity: info
+          text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 450
+              end: 450
+        - name: pdfTeX
+          severity: info
+          text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+          source:
+            file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty'
+          log:
+            file: apssamp.log
+            range:
+              start: 452
+              end: 452
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ref
+          source:
+            file: apssamp.tex
+            range:
+              start: 90
+              end: 90
+          log:
+            file: apssamp.log
+            range:
+              start: 456
+              end: 456
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \pageref
+          source:
+            file: apssamp.tex
+            range:
+              start: 90
+              end: 90
+          log:
+            file: apssamp.log
+            range:
+              start: 457
+              end: 457
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \nameref
+          source:
+            file: apssamp.tex
+            range:
+              start: 90
+              end: 90
+          log:
+            file: apssamp.log
+            range:
+              start: 458
+              end: 458
+        - severity: info
+          name: pdfTeX
+          category: Class revtex4-1
+          text: Taking \maketitle back from hyperref
+          source:
+            file: apssamp.tex
+            range:
+              start: 90
+              end: 90
+          log:
+            file: apssamp.log
+            range:
+              start: 467
+              end: 467
+        - severity: warning
+          name: pdfTeX
+          category: Package hyperref
+          text: 'Token not allowed in a PDF string (PDFDocEncoding): removing `\\''.'
+          source:
+            file: apssamp.tex
+            range:
+              start: 111
+              end: 111
+          log:
+            file: apssamp.log
+            range:
+              start: 477
+              end: 478
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1326,8 +2109,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 339
-              end: 339
+              start: 489
+              end: 489
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -1340,22 +2123,38 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 343
-              end: 343
-        - severity: info
+              start: 493
+              end: 493
+        - severity: warning
           name: pdfTeX
-          category: Package pdftex.def
-          text: Figures/specklefilter2.png used on input line 107.
+          category: Package hyperref
+          text: >-
+            Difference (2) between bookmark levels is greater than one, level
+            fixed.
           source:
             file: apssamp.tex
             range:
-              start: 107
-              end: 107
+              start: 125
+              end: 125
           log:
             file: apssamp.log
             range:
-              start: 364
-              end: 365
+              start: 507
+              end: 508
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: Figures/specklefilter2.png used on input line 135.
+          source:
+            file: apssamp.tex
+            range:
+              start: 135
+              end: 135
+          log:
+            file: apssamp.log
+            range:
+              start: 518
+              end: 519
         - severity: info
           name: pdfTeX
           category: Package pdftex.def
@@ -1363,13 +2162,124 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 107
-              end: 107
+              start: 135
+              end: 135
           log:
             file: apssamp.log
             range:
-              start: 366
-              end: 367
+              start: 520
+              end: 521
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: Figures/3dvol.png used on input line 164.
+          source:
+            file: apssamp.tex
+            range:
+              start: 164
+              end: 164
+          log:
+            file: apssamp.log
+            range:
+              start: 542
+              end: 543
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'Requested size: 172.19925pt x 165.99495pt'
+          source:
+            file: apssamp.tex
+            range:
+              start: 164
+              end: 164
+          log:
+            file: apssamp.log
+            range:
+              start: 544
+              end: 545
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: Figures/2dslice.png used on input line 171.
+          source:
+            file: apssamp.tex
+            range:
+              start: 171
+              end: 171
+          log:
+            file: apssamp.log
+            range:
+              start: 549
+              end: 550
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'Requested size: 172.19925pt x 186.50299pt'
+          source:
+            file: apssamp.tex
+            range:
+              start: 171
+              end: 171
+          log:
+            file: apssamp.log
+            range:
+              start: 551
+              end: 552
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Empty hook `AfterLastShipout'
+          source:
+            file: apssamp.tex
+            range:
+              start: 278
+              end: 278
+          log:
+            file: apssamp.log
+            range:
+              start: 620
+              end: 620
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Executing hook `AtVeryEndDocument'
+          source:
+            file: apssamp.tex
+            range:
+              start: 278
+              end: 278
+          log:
+            file: apssamp.log
+            range:
+              start: 624
+              end: 624
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Executing hook `AtEndAfterFileList'
+          source:
+            file: apssamp.tex
+            range:
+              start: 278
+              end: 278
+          log:
+            file: apssamp.log
+            range:
+              start: 625
+              end: 625
+        - severity: info
+          name: pdfTeX
+          category: Package rerunfilecheck
+          text: >-
+            File `apssamp.out' has not changed. Checksum:
+            2A3DA3C377F7E7809BA6111502C0A591;1853.
+          source:
+            file: apssamp.tex
+          log:
+            file: apssamp.log
+            range:
+              start: 626
+              end: 627
         - severity: warning
           name: pdfTeX
           category: LaTeX
@@ -1379,21 +2289,21 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 398
-              end: 398
+              start: 629
+              end: 629
       inputs: []
       outputs:
         - apssamp.pdf
       calls: []
     type: ParsedLaTeXLog
   apssamp.blg-ParsedBibTeXLog:
-    timeStamp: 2018-04-17T22:38:06.498Z
+    timeStamp: 2018-04-19T00:20:22.202Z
     jobNames: []
     value:
       messages:
         - severity: warning
           name: BibTeX
-          text: empty year in stough
+          text: 'to sort, need author or key in radarlee'
           log:
             file: apssamp.blg
             range:
@@ -1401,12 +2311,36 @@ files:
               end: 7
         - severity: warning
           name: BibTeX
-          text: empty booktitle in tahereh_2014
+          text: empty year in radarlee
           log:
             file: apssamp.blg
             range:
               start: 8
               end: 8
+        - severity: warning
+          name: BibTeX
+          text: empty year in leefilter
+          log:
+            file: apssamp.blg
+            range:
+              start: 9
+              end: 9
+        - severity: warning
+          name: BibTeX
+          text: empty year in stough
+          log:
+            file: apssamp.blg
+            range:
+              start: 10
+              end: 10
+        - severity: warning
+          name: BibTeX
+          text: empty booktitle in tahereh_2014
+          log:
+            file: apssamp.blg
+            range:
+              start: 11
+              end: 11
       inputs:
         - "apssamp.aux\r"
         - "c:\\texlive\\2017\\texmf-dist\\bibtex\\bst\\beebe\\apa.bst\r"
@@ -1416,31 +2350,43 @@ files:
       calls: []
     type: ParsedBibTeXLog
   apssamp.pdf:
-    timeStamp: 2018-04-18T01:15:49.472Z
+    timeStamp: 2018-04-19T06:10:55.347Z
     jobNames: []
-    hash: f6g13LywPJK+aw2WwngvqVcALAHFtQsLraVVl6iJ+j8=
+    hash: PiJIOEfqYlbDYhyVWwsoqQlJiCQRbadEyWOS7l4+N34=
     type: PortableDocumentFormat
   apssamp.aux:
-    timeStamp: 2018-04-18T01:15:49.440Z
+    timeStamp: 2018-04-19T06:10:55.292Z
     jobNames: []
-    hash: 7ZcujBAUT+kNmBUHicjlpvkvgCkE/qBAOU14TwOuxgo=
+    hash: rLwA4yISFE+cMoQBB34HAI5gwZdVTxXegCqEpojmD80=
     type: LaTeXAuxilary
-  apssamp.fls:
-    timeStamp: 2018-04-18T01:15:49.485Z
-    jobNames: []
-    hash: GpfMBEUqfbQA4ZGcU0PHCdITCLRnXpOyoe7+nWkccD0=
-    type: FileListing
   apssamp.synctex.gz:
-    timeStamp: 2018-04-18T01:15:49.476Z
+    timeStamp: 2018-04-19T06:10:55.351Z
     jobNames: []
-    hash: moSbtjKO0JZqI32VSmslbspLQV2CSICHJ3kLvE9zukI=
+    hash: KkKTZz37XsovIRVNKrQCJVg8R3GLpMzl1jx72pq+va0=
     type: SyncTeX
   apssamp.aux-ParsedLaTeXAuxilary:
-    timeStamp: 2018-04-17T22:38:05.642Z
+    timeStamp: 2018-04-19T06:10:53.586Z
     jobNames: []
     value:
       commands:
         - relax
+        - providecommand
+        - providecommand
+        - HyperFirstAtBeginDocument
+        - global
+        - gdef
+        - global
+        - gdef
+        - gdef
+        - AtEndDocument
+        - let
+        - let
+        - fi
+        - fi
+        - global
+        - gdef
+        - providecommand
+        - providecommand
         - citation
         - gdef
         - gdef
@@ -1448,7 +2394,6 @@ files:
         - gdef
         - gdef
         - gdef
-        - citation
         - citation
         - citation
         - citation
@@ -1465,8 +2410,6 @@ files:
         - '@writefile'
         - '@writefile'
         - '@writefile'
-        - newlabel
-        - '@writefile'
         - '@writefile'
         - newlabel
         - newlabel
@@ -1475,9 +2418,54 @@ files:
         - '@writefile'
         - newlabel
         - '@writefile'
+        - citation
+        - citation
+        - citation
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - citation
+        - citation
+        - citation
+        - citation
         - citation
         - citation
         - bibdata
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
         - bibcite
         - bibcite
         - bibcite
@@ -1485,12 +2473,6 @@ files:
         - bibcite
         - bibcite
         - bibstyle
-        - newlabel
-        - '@writefile'
-        - newlabel
-        - '@writefile'
-        - newlabel
-        - '@writefile'
         - newlabel
         - '@writefile'
         - '@writefile'
@@ -1501,24 +2483,20 @@ files:
     timeStamp: 2018-03-14T00:23:22.276Z
     jobNames: []
     hash: +LCaE1Bdqob1Y5dY9en6YGN30FPBmC4lGQFBqgN9muk=
-  apssamp.bbl:
-    timeStamp: 2018-04-18T01:15:48.736Z
-    jobNames: []
-    hash: 5sevkBlr6cz0KS0GRDAzaVR5tNDp19UUgUZukS9WCsQ=
   apssamp.lof:
-    timeStamp: 2018-04-18T01:15:49.443Z
+    timeStamp: 2018-04-19T06:10:55.297Z
     jobNames: []
-    hash: MielC37TNuh6BQqsWPQvR5axvRMgG1nb/7GftjhlGWg=
+    hash: p6jm6xZCzADV0gMgfGYRfaxrU8D6EmSHT0uXa3WeNq8=
     type: ListOfFigures
   apssamp.lot:
-    timeStamp: 2018-04-18T01:15:49.235Z
+    timeStamp: 2018-04-19T06:10:54.894Z
     jobNames: []
     hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
     type: ListOfTables
   apssamp.toc:
-    timeStamp: 2018-04-18T01:15:49.442Z
+    timeStamp: 2018-04-19T06:10:55.296Z
     jobNames: []
-    hash: lPSOy65yyXdgfrvKAb3neeSGGe5Qxbbtf0jUAg+RGwU=
+    hash: vyCsQsT3deJCpAvipSPR78WwDygukr3Lbu79rmGVJ5k=
     type: TableOfContents
   'c:\texlive\2017\texmf-dist\fonts\map\fontname\texfonts.map':
     timeStamp: 2017-08-12T17:10:17.573Z
@@ -1767,7 +2745,7 @@ files:
     timeStamp: 2017-08-12T17:29:09.150Z
     jobNames: []
   apssampNotes.bib:
-    timeStamp: 2018-04-18T01:15:49.221Z
+    timeStamp: 2018-04-19T06:10:54.869Z
     jobNames: []
     hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
     type: BibTeXFile
@@ -1780,6 +2758,297 @@ files:
   'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb':
     timeStamp: 2017-08-12T17:02:35.814Z
     jobNames: []
+  apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg:
+    timeStamp: 2018-04-18T22:40:01.489Z
+    jobNames: []
+    hash: /0WFhtAxbn8T1/6Wjtlnax8CSTPWtV+tehSR/3qBy44=
+    type: BibTeXLog
+    subType: BibTeX
+  apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog:
+    timeStamp: 2018-04-18T22:42:23.557Z
+    jobNames: []
+    value:
+      messages:
+        - severity: warning
+          name: BibTeX
+          text: 'to sort, need author or key in radarlee'
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 5
+              end: 5
+        - severity: warning
+          name: BibTeX
+          text: empty year in radarlee
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 6
+              end: 6
+        - severity: warning
+          name: BibTeX
+          text: empty year in leefilter
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 7
+              end: 7
+        - severity: warning
+          name: BibTeX
+          text: empty year in stough
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 8
+              end: 8
+        - severity: warning
+          name: BibTeX
+          text: empty booktitle in tahereh_2014
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 9
+              end: 9
+      inputs:
+        - "apssamp.aux\r"
+        - "c:\\texlive\\2017\\texmf-dist\\bibtex\\bst\\beebe\\apa.bst\r"
+        - "apssampNotes.bib\r"
+        - "apssamp.bib\r"
+      outputs: []
+      calls: []
+    type: ParsedBibTeXLog
+  apssamp.fls:
+    timeStamp: 2018-04-19T06:10:55.355Z
+    jobNames: []
+    hash: ucv5A0m/DGW6QGTgfvYDzywdKB+PC2TYaQqobWSCp4k=
+    type: FileListing
+  Figures\3dvol.png:
+    timeStamp: 2018-04-18T22:37:15.486Z
+    jobNames: []
+    hash: oX5bnXayqzhFJcWHaiyEumdKFxs5k43jbqFalNYl/rk=
+  apssamp.out:
+    timeStamp: 2018-04-19T06:10:55.294Z
+    jobNames: []
+    hash: 1gTbxZ2bQdsJctBfeY0UY36TWPC05unpLBH+RmDo98g=
+    type: OUT
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx10.pfb':
+    timeStamp: 2017-08-12T17:02:35.675Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb':
+    timeStamp: 2017-08-12T17:02:35.822Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty':
+    timeStamp: 2017-08-12T17:12:09.638Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty':
+    timeStamp: 2017-08-12T17:18:01.404Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty':
+    timeStamp: 2017-08-12T17:18:01.406Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty':
+    timeStamp: 2017-08-12T17:18:01.408Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hpdftex.def':
+    timeStamp: 2017-08-12T17:11:47.874Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty':
+    timeStamp: 2017-08-12T17:11:47.886Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty':
+    timeStamp: 2017-08-12T17:11:47.891Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def':
+    timeStamp: 2017-08-12T17:11:47.895Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg':
+    timeStamp: 2017-08-12T17:14:06.437Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg':
+    timeStamp: 2017-08-12T17:14:39.906Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty':
+    timeStamp: 2017-08-12T17:14:39.908Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty':
+    timeStamp: 2017-08-12T17:14:39.917Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty':
+    timeStamp: 2017-08-12T17:18:01.515Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty':
+    timeStamp: 2017-08-12T17:18:01.593Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm':
+    timeStamp: 2017-08-12T17:02:35.505Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm':
+    timeStamp: 2017-08-12T17:02:35.508Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm':
+    timeStamp: 2017-08-12T17:02:35.512Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm':
+    timeStamp: 2017-08-12T17:02:35.514Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm':
+    timeStamp: 2017-08-12T17:02:35.517Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm':
+    timeStamp: 2017-08-12T17:05:38.949Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm':
+    timeStamp: 2017-08-12T17:05:38.964Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm':
+    timeStamp: 2017-08-12T17:05:38.967Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm':
+    timeStamp: 2017-08-12T17:05:38.972Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm':
+    timeStamp: 2017-08-12T17:05:39.083Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm':
+    timeStamp: 2017-08-12T17:05:39.085Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm':
+    timeStamp: 2017-08-12T17:05:39.097Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb':
+    timeStamp: 2017-08-12T17:02:35.867Z
+    jobNames: []
+  apssamp.sync-conflict-20180418-154253-3VP7TJR.blg:
+    timeStamp: 2018-04-18T22:40:57.472Z
+    jobNames: []
+    hash: /0WFhtAxbn8T1/6Wjtlnax8CSTPWtV+tehSR/3qBy44=
+    type: BibTeXLog
+    subType: BibTeX
+  apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog:
+    timeStamp: 2018-04-18T22:48:30.916Z
+    jobNames: []
+    value:
+      messages:
+        - severity: warning
+          name: BibTeX
+          text: 'to sort, need author or key in radarlee'
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 5
+              end: 5
+        - severity: warning
+          name: BibTeX
+          text: empty year in radarlee
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 6
+              end: 6
+        - severity: warning
+          name: BibTeX
+          text: empty year in leefilter
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 7
+              end: 7
+        - severity: warning
+          name: BibTeX
+          text: empty year in stough
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 8
+              end: 8
+        - severity: warning
+          name: BibTeX
+          text: empty booktitle in tahereh_2014
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 9
+              end: 9
+      inputs:
+        - "apssamp.aux\r"
+        - "c:\\texlive\\2017\\texmf-dist\\bibtex\\bst\\beebe\\apa.bst\r"
+        - "apssampNotes.bib\r"
+        - "apssamp.bib\r"
+      outputs: []
+      calls: []
+    type: ParsedBibTeXLog
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm':
+    timeStamp: 2017-08-12T17:05:39.089Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb':
+    timeStamp: 2017-08-12T17:02:35.843Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty':
+    timeStamp: 2017-08-12T17:14:39.911Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm':
+    timeStamp: 2017-08-12T17:05:38.974Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb':
+    timeStamp: 2017-08-12T17:02:35.749Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb':
+    timeStamp: 2017-08-12T17:02:35.756Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg':
+    timeStamp: 2017-08-12T17:11:14.650Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty':
+    timeStamp: 2017-08-12T17:11:14.031Z
+    jobNames: []
+    type: LaTeXStyle
+  Figures\2dslice.png:
+    timeStamp: 2018-04-18T23:00:13.613Z
+    jobNames: []
+    hash: ++auQQ50jBxBA4AEpwyeQH++dRR4RHhSxu/JQWwD/O4=
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm':
+    timeStamp: 2017-08-12T17:02:35.507Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm':
+    timeStamp: 2017-08-12T17:02:35.512Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm':
+    timeStamp: 2017-08-12T17:02:35.516Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm':
+    timeStamp: 2017-08-12T17:05:38.951Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm':
+    timeStamp: 2017-08-12T17:05:38.966Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm':
+    timeStamp: 2017-08-12T17:05:39.085Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb':
+    timeStamp: 2017-08-12T17:02:35.824Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\base\omscmr.fd':
+    timeStamp: 2017-08-12T17:13:47.918Z
+    jobNames: []
+    type: FontDescription
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr7.pfb':
+    timeStamp: 2017-08-12T17:02:35.753Z
+    jobNames: []
+  apssamp.bbl:
+    timeStamp: 2018-04-19T06:10:54.135Z
+    jobNames: []
+    hash: zwkz5MGNnGRQsReZ9JH8bowVjaE9kFFquvTmaMOlSME=
 rules:
   - name: ApplyOptions
     command: load
@@ -1873,8 +3142,6 @@ rules:
       - file: apssamp.aux
         type: default
       - file: Figures\specklefilter2.png
-        type: default
-      - file: apssamp.bbl
         type: default
       - file: apssamp.lof
         type: default
@@ -2036,12 +3303,116 @@ rules:
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb'
         type: default
+      - file: Figures\3dvol.png
+        type: default
+      - file: apssamp.out
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx10.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hpdftex.def'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty'
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm'
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty'
+        type: default
+      - file: Figures\2dslice.png
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm'
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\base\omscmr.fd'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr7.pfb'
+        type: default
+      - file: apssamp.bbl
+        type: default
     outputs:
       - file: apssamp.pdf
         type: target
       - file: apssamp.aux
-        type: default
-      - file: apssamp.fls
         type: default
       - file: apssamp.log
         type: default
@@ -2054,6 +3425,10 @@ rules:
       - file: apssamp.toc
         type: default
       - file: apssampNotes.bib
+        type: default
+      - file: apssamp.fls
+        type: default
+      - file: apssamp.out
         type: default
   - name: ParseBibTeXLog
     command: build
@@ -2088,17 +3463,6 @@ rules:
     outputs:
       - file: apssamp.aux-ParsedLaTeXAuxilary
         type: default
-  - name: ParseFileListing
-    command: build
-    phase: execute
-    parameters:
-      - apssamp.fls
-    inputs:
-      - file: apssamp.fls
-        type: default
-    outputs:
-      - file: apssamp.fls-ParsedFileListing
-        type: default
   - name: BibTeX
     command: build
     phase: execute
@@ -2115,9 +3479,9 @@ rules:
       - file: apssamp.blg-ParsedBibTeXLog
         type: default
     outputs:
-      - file: apssamp.bbl
-        type: default
       - file: apssamp.blg
+        type: default
+      - file: apssamp.bbl
         type: default
   - name: LogProducedTargets
     command: build
@@ -2182,6 +3546,85 @@ rules:
     outputs: []
   - name: SaveCache
     command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseBibTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+        type: default
+    outputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
+        type: default
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters:
+      - apssamp.fls
+    inputs:
+      - file: apssamp.fls
+        type: default
+    outputs:
+      - file: apssamp.fls-ParsedFileListing
+        type: default
+  - name: ParseBibTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+        type: default
+    outputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
+        type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
+        type: default
+    outputs: []
+  - name: ParseBibTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+        type: default
+    outputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
+        type: default
+  - name: ParseBibTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+        type: default
+    outputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
+        type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
+        type: default
+    outputs: []
+  - name: Clean
+    command: clean
     phase: execute
     parameters: []
     inputs: []

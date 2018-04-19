@@ -13,8 +13,13 @@
 \BOOKMARK [1][-]{section*.10}{ OCT Image Aquisition and Preparation}{section*.5}% 13
 \BOOKMARK [2][-]{section*.11}{ Aquiring and Visualizing OCT Images}{section*.10}% 14
 \BOOKMARK [2][-]{section*.12}{ Slicing and Preparing a 2D Image for Processing}{section*.10}% 15
-\BOOKMARK [1][-]{section*.13}{ Scope of DSP Methods Used}{section*.5}% 16
-\BOOKMARK [2][-]{section*.14}{ Wiener Filter}{section*.13}% 17
-\BOOKMARK [2][-]{section*.15}{ Enhanced Lee Filter}{section*.13}% 18
-\BOOKMARK [1][-]{section*.16}{ Conclusion}{section*.5}% 19
-\BOOKMARK [1][-]{section*.17}{References}{section*.5}% 20
+\BOOKMARK [1][-]{section*.13}{ Quality Metrics: Signal to Noise Level, and Estimated Noise Level}{section*.5}% 16
+\BOOKMARK [2][-]{section*.14}{ Contrast to Noise \(CNR\) Estimation}{section*.13}% 17
+\BOOKMARK [2][-]{section*.15}{ Estimated Noise Level}{section*.13}% 18
+\BOOKMARK [2][-]{section*.16}{ Naturalness Image Quality Evaluator \(NIQE\) No-Reference Image Quality Score}{section*.13}% 19
+\BOOKMARK [1][-]{section*.17}{ Scope of DSP Methods Used}{section*.5}% 20
+\BOOKMARK [2][-]{section*.18}{ Wiener Filter}{section*.17}% 21
+\BOOKMARK [2][-]{section*.19}{ Enhanced Lee Filter}{section*.17}% 22
+\BOOKMARK [2][-]{section*.20}{ Kuwahara Filter}{section*.17}% 23
+\BOOKMARK [1][-]{section*.21}{ Conclusion}{section*.5}% 24
+\BOOKMARK [1][-]{section*.22}{References}{section*.5}% 25

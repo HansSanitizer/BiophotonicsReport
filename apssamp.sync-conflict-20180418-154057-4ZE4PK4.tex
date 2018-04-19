@@ -45,7 +45,6 @@ pra,
 \usepackage{bm}% bold math
 \usepackage{booktabs}
 \usepackage{listings}
-\usepackage{color}
 \usepackage{hyperref}
 \usepackage{url}
 %\usepackage{tocloft}
@@ -60,31 +59,7 @@ pra,
 %%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
 %%height=10in,a5paper,hmargin={3cm,0.8in},
 %]{geometry}
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\footnotesize,
-    breakatwhitespace=false,
-    breaklines=true,
-    captionpos=b,
-    keepspaces=true,
-    numbers=left,
-    numbersep=5pt,
-    showspaces=false,
-    showstringspaces=false,
-    showtabs=false,
-    tabsize=2
-}
-
-\lstset{style=mystyle}
 
 
 \begin{document}
@@ -148,59 +123,20 @@ Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimen
 	\section{\label{sec:level1} OCT Image Aquisition and Preparation}
 
 	\subsection{\label{sec:level2} Aquiring and Visualizing OCT Images}
-		While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to view an interactive 3D volume from the provided .mat files using a script published on MathWorks file exchange titled '3D Volume Visualization' \cite{stough}. A capture of the visualizan can be seen in Figure \ref{fig:3dvol}.
-
+	While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to view an interactive 3D volume from the provided .mat files using a script published on MathWorks file exchange titled '3D Volume Visualization' \cite{stough}. A capture of the visualizan can be seen in figure \ref{fig:3dvol}.
 
 	\subsection{\label{sec:level2} Slicing and Preparing a 2D Image for Processing}
-		Upon importing the .mat files into Matlab, they took the form of a 650 x 512 x 128 double data type named d3. The Matlab code shown in Listing \ref{code:2dslicecode} shows the process of taking the middle XY slice and creating a greyscale image.
-		\begin{lstlisting}[language=Matlab, caption=Take Slice of 3D Volume, label=code:2dslicecode]
-	%Take Slice of 3D Volume
-	SliceL = d3(:,:,64);
-	ImgSliceL = mat2gray(SliceL, [0 255]);
-	imshow(ImgSliceL);
-		\end{lstlisting}
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{Figures/3dvol}
-			\caption{3D Volume Visualization Capture}
-			\label{fig:3dvol}
-		\end{figure}
-		An example unaltered aquired image is shown in Figure \ref{fig:2dslice}.
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{Figures/2dslice}
-			\caption{Unaltered 2D Slice of 3D Volume}
-			\label{fig:2dslice}
-		\end{figure}
-
-	\section{\label{sec:level1} Quality Metrics: Signal to Noise Level, and Estimated Noise Level}
-	The results of quality measurements for each applied filter method are listed in Table (**ADD REFERENCE TO TABLE). The methods for obtaining the quality metrics are described in the following paragraphs.
-
-	\subsection{\label{sec:level2} Contrast to Noise (CNR) Estimation}
-	The code shown in Listing \ref{code:cnr} outlines the process for aquiring the contrast to noise estimation. The process starts with taking the 2D image matrix and converting it into a 1D array.
-
-	The maximum and minimum values are extracted from the 1D matrix, and then the standard deviation is calculated. The final CNR is calculated equivalent to the formula:
-
-	$$CNR = (\frac{Max-Min}{\text{Standard Deviation}})$$
-
-	\begin{lstlisting}[language=Matlab, caption=Estimate Contrast to Noise Ratio, label=code:cnr]
-	% Measure contrast-to-noise ratio
-	img=ImgSliceL;
-	img=double(img(:));
-	ima=max(img(:));
-	imi=min(img(:));
-	mse=std(img(:));
-	cnr=((ima-imi)./mse)
-	\end{lstlisting}
-
-	\subsection{\label{sec:level2} Estimated Noise Level}
-	The Estimated Noise Level (ENL) is calculated using a method implemented in a Matlab function by Ashish Meshram \cite{meshram_noise_2014}. This implementation is based off of the paper titled \textit{Single-Image Noise Level Estimation for Blind Denoising}  by Xinhao Liu, and team \cite{Liu_2013}.
-	\subsection{\label{sec:level2} Naturalness Image Quality Evaluator (NIQE) No-Reference Image Quality Score}
-
-	Due to the fact that all obtained images need to be evaluated as is, with no reference image to compare to, it is advantageous to use a metric that does not require a reference image. Matlab has a built-in function called niqe that returns a value (lower is better, indicating higher perceptual quality) using the Naturalness Image Quality Evaluator based off the work of Anish Mittal and team \cite{NIQE_2013}.
+	Upon importing the .mat files into Matlab, they took the form of a 650 x 512 x 128 double data type. The following Matlab code shows the process of taking the middle XY slice and creating a greyscale image.
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Figures/3dvol}
+		\caption{3D Volume Visualization Capture}
+		\label{fig:3dvol}
+	\end{figure}
 
 	\section{\label{sec:level1} Scope of DSP Methods Used}
-	This report will focus on 2D image filtering methods which can be applied using Matlab.
+	This report will focus on 2D image filtering methods which can be applied using Matlab. To apply the supplied image filters to these images the following code was used to take a slice of an image in the XY plane.
+
 	$$\text{(Talk more about types of methods used.)}$$
 	\subsection{\label{sec:level2} Wiener Filter}
 	The 2D Wiener filter is a processing technique which is capable of not only improving resolution but as well signal-to-noise (SNR) ratio of particular image. This low-pass filter is an optimal trade-off between inverse filtering and noise smoothing. This filter is also referred to as a local linear minimum mean square error which means [LLMMSE] it is the optimal estimator in the sense of mean squared error (MSE). Where LLMMSE and MSE is determined by:
@@ -244,9 +180,10 @@ Point: where the pixel value is unchanged.
 \\
 \\
 The resultant gray value R for the pixels is then represented as:
-$$R = I_{m} \text{ for } C_{i} \leq C_{u}$$
+
+$$R = I_{m} for C_{i} \leq C_{u}$$
 $$R = I_{m} \times W+I_{c} \times (1-W) \text{ for } C_{u}<C_{i}<C_{max}$$
-$$R = I_{c} \text{ for } C_{i} \geq C_{max}$$
+$$R = I_{c} for C_{i} \geq C_{max}$$
 
 Where:
 \\
@@ -262,9 +199,9 @@ Where:
 	\\
 	S       = standard deviation of intensity within the kernel
 	\cite{radarlee}
-\subsection{\label{sec:level2} Kuwahara Filter}
 
-The Kuwahara filter is an edge preserving non-linear smoothing filter.
+
+
 
 	\section{\label{sec:level1} Conclusion}
 
