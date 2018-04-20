@@ -6,48 +6,50 @@ Database file #1: apssampNotes.bib
 Database file #2: apssamp.bib
 Warning--to sort, need author or key in radarlee
 Warning--empty year in radarlee
+Warning--empty year in balbi_faster
+Warning--empty year in kuwahara_operator
 Warning--empty year in leefilter
 Warning--empty year in stough
 Warning--empty booktitle in tahereh_2014
-You've used 12 entries,
+You've used 20 entries,
             1940 wiz_defined-function locations,
-            547 strings with 6051 characters,
-and the built_in function-call counts, 4788 in all, are:
-= -- 470
-> -- 216
-< -- 7
-+ -- 74
-- -- 74
-* -- 423
-:= -- 830
-add.period$ -- 37
-call.type$ -- 12
-change.case$ -- 96
-chr.to.int$ -- 12
-cite$ -- 18
-duplicate$ -- 169
-empty$ -- 304
-format.name$ -- 91
-if$ -- 922
+            593 strings with 7428 characters,
+and the built_in function-call counts, 7386 in all, are:
+= -- 739
+> -- 304
+< -- 13
++ -- 104
+- -- 102
+* -- 631
+:= -- 1308
+add.period$ -- 66
+call.type$ -- 20
+change.case$ -- 150
+chr.to.int$ -- 20
+cite$ -- 28
+duplicate$ -- 261
+empty$ -- 472
+format.name$ -- 127
+if$ -- 1409
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 65
-num.names$ -- 33
-pop$ -- 84
+missing$ -- 12
+newline$ -- 110
+num.names$ -- 57
+pop$ -- 115
 preamble$ -- 2
-purify$ -- 97
+purify$ -- 151
 quote$ -- 0
-skip$ -- 132
+skip$ -- 204
 stack$ -- 0
-substring$ -- 312
-swap$ -- 35
+substring$ -- 493
+swap$ -- 46
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
-warning$ -- 5
-while$ -- 33
+type$ -- 118
+warning$ -- 7
+while$ -- 54
 width$ -- 0
-write$ -- 153
-(There were 5 warnings)
+write$ -- 260
+(There were 7 warnings)

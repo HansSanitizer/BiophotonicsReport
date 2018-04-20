@@ -1,25 +1,26 @@
 \BOOKMARK [0][-]{section*.2}{Optical Coherence Tomography: \040Mitigation of Scattering Using DSP Techniques}{}% 2
 \BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
 \BOOKMARK [1][-]{section*.3}{Contents}{section*.2}% 3
-\BOOKMARK [0][-]{section*.3}{Contents}{}% 4
-\BOOKMARK [1][-]{section*.4}{List of Figures}{section*.3}% 5
-\BOOKMARK [0][-]{section*.4}{List of Figures}{}% 6
-\BOOKMARK [1][-]{section*.5}{List of Tables}{section*.4}% 7
-\BOOKMARK [0][-]{section*.5}{List of Tables}{}% 8
-\BOOKMARK [1][-]{section*.6}{ Introduction}{section*.5}% 9
-\BOOKMARK [1][-]{section*.7}{OCT Identified Problem and Suggested Solution}{section*.5}% 10
-\BOOKMARK [2][-]{section*.8}{ The Problem of Speckle Noise}{section*.7}% 11
-\BOOKMARK [2][-]{section*.9}{ Possible Solutions for Speckle Noise}{section*.7}% 12
-\BOOKMARK [1][-]{section*.10}{ OCT Image Aquisition and Preparation}{section*.5}% 13
-\BOOKMARK [2][-]{section*.11}{ Aquiring and Visualizing OCT Images}{section*.10}% 14
-\BOOKMARK [2][-]{section*.12}{ Slicing and Preparing a 2D Image for Processing}{section*.10}% 15
-\BOOKMARK [1][-]{section*.13}{ Quality Metrics: Signal to Noise Level, and Estimated Noise Level}{section*.5}% 16
-\BOOKMARK [2][-]{section*.14}{ Contrast to Noise \(CNR\) Estimation}{section*.13}% 17
-\BOOKMARK [2][-]{section*.15}{ Estimated Noise Level}{section*.13}% 18
-\BOOKMARK [2][-]{section*.16}{ Naturalness Image Quality Evaluator \(NIQE\) No-Reference Image Quality Score}{section*.13}% 19
-\BOOKMARK [1][-]{section*.17}{ Scope of DSP Methods Used}{section*.5}% 20
-\BOOKMARK [2][-]{section*.18}{ Wiener Filter}{section*.17}% 21
-\BOOKMARK [2][-]{section*.19}{ Enhanced Lee Filter}{section*.17}% 22
-\BOOKMARK [2][-]{section*.20}{ Kuwahara Filter}{section*.17}% 23
-\BOOKMARK [1][-]{section*.21}{ Conclusion}{section*.5}% 24
-\BOOKMARK [1][-]{section*.22}{References}{section*.5}% 25
+\BOOKMARK [1][-]{section*.4}{List of Figures}{section*.2}% 4
+\BOOKMARK [1][-]{section*.5}{List of Tables}{section*.2}% 5
+\BOOKMARK [1][-]{section*.5}{ \040List of Code}{section*.2}% 6
+\BOOKMARK [1][-]{section*.6}{ Introduction}{section*.2}% 7
+\BOOKMARK [1][-]{section*.7}{OCT Identified Problem and Suggested Solution}{section*.2}% 8
+\BOOKMARK [2][-]{section*.8}{ The Problem of Speckle Noise}{section*.7}% 9
+\BOOKMARK [2][-]{section*.10}{ Possible Solutions for Speckle Noise}{section*.7}% 10
+\BOOKMARK [1][-]{section*.11}{ OCT Image Aquisition and Preparation}{section*.2}% 11
+\BOOKMARK [2][-]{section*.12}{ Aquiring and Visualizing OCT Images}{section*.11}% 12
+\BOOKMARK [2][-]{section*.13}{ Slicing and Preparing a 2D Image for Processing}{section*.11}% 13
+\BOOKMARK [1][-]{section*.16}{ Quality Metrics: Signal to Noise Level, and Estimated Noise Level}{section*.2}% 14
+\BOOKMARK [2][-]{section*.17}{ Contrast to Noise \(CNR\) Estimation}{section*.16}% 15
+\BOOKMARK [2][-]{section*.18}{ Estimated Noise Level}{section*.16}% 16
+\BOOKMARK [2][-]{section*.19}{ Naturalness Image Quality Evaluator \(NIQE\) No-Reference Image Quality Score}{section*.16}% 17
+\BOOKMARK [2][-]{section*.20}{ Omission of Mean Squared Error \(MSE\) for OCT Images}{section*.16}% 18
+\BOOKMARK [1][-]{section*.22}{ Scope of DSP Methods Used}{section*.2}% 19
+\BOOKMARK [2][-]{section*.23}{ Wiener Filter}{section*.22}% 20
+\BOOKMARK [2][-]{section*.24}{ Lee Filter}{section*.22}% 21
+\BOOKMARK [2][-]{section*.25}{ Kuwahara Filter}{section*.22}% 22
+\BOOKMARK [2][-]{section*.27}{ Symmetric Nearest Neighbor \(SNN\) Filter}{section*.22}% 23
+\BOOKMARK [2][-]{section*.29}{ Hybrid Median Filter}{section*.22}% 24
+\BOOKMARK [1][-]{section*.30}{ Conclusion}{section*.2}% 25
+\BOOKMARK [1][-]{section*.35}{References}{section*.2}% 26

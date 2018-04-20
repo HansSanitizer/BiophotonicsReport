@@ -1,0 +1,15 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces On the left is an image put through a speckle filter in Matlab. On the right is the original image.\relax }}{4}{figure.caption.5}
+\contentsline {figure}{\numberline {2}{\ignorespaces 3D Volume Visualization Capture\relax }}{5}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Unaltered 2D Slice of 3D Volume\relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {4}{\ignorespaces OCT Captures with Increasing Numbers of Composite Images Used, Adapted From \cite {ozcan_speckle_2007}\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces The Kuwahara Operator \cite {kuwahara_operator}\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {6}{\ignorespaces Symmetric Nearest Neighbor Pixel Selection \cite {fiveko_symmetric_2017}\relax }}{10}{figure.caption.10}
+\contentsline {figure}{\numberline {7}{\ignorespaces Unfiltered and Wiener Filtered Images\relax }}{12}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original Unfiltered Image}}}{12}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wiener Filtered Image}}}{12}{subfigure.7.2}
+\contentsline {figure}{\numberline {8}{\ignorespaces Lee and Kuwahara Filtered Images\relax }}{12}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Lee Filtered Image}}}{12}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Kuwahara Filtered Image}}}{12}{subfigure.8.2}
+\contentsline {figure}{\numberline {9}{\ignorespaces SNN and Hybrid Filtered Images\relax }}{13}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SNN Filtered Image}}}{13}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Hyrbid Filtered Image}}}{13}{subfigure.9.2}

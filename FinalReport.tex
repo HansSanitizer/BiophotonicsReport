@@ -18,28 +18,7 @@
 %  3)  latex apssamp.tex
 %  4)  latex apssamp.tex
 %
-\documentclass[%
-reprint,
-%superscriptaddress,
-%groupedaddress,
-%unsortedaddress,
-%runinaddress,
-%frontmatterverbose,
-%preprint,
-showpacs,preprintnumbers,
-%nofootinbib,
-%nobibnotes,
-bibnotes,
-amsmath,amssymb,
-aps,
-pra,
-%prb,
-%rmp,
-%prstab,
-%prstper,
-%floatfix,
-]{revtex4-1}
-
+\documentclass{article}
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
@@ -51,8 +30,10 @@ pra,
 \usepackage{url}
 \usepackage{subfig}
 \usepackage{parcolumns}
-\usepackage{xpatch}
-
+\usepackage{amsmath}
+\usepackage{cite}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
 %\usepackage{tocloft}
 %\usepackage{hyperref}% add hypertext capabilities
 %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
@@ -100,13 +81,13 @@ pra,
 
 	\author{Jared Mann, V00187636}
 	\author{Mike Vlanich, V00862757}
-	\affiliation{University of Victoria, Faculty of Electrical Engineering}
+	\author{University of Victoria, Faculty of Electrical Engineering}
 
 	\date{\today}% It is always \today, today,
 
 
 	\begin{abstract}
-		Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimensional images of biological tissues. The practice came into prominence in 1991 from the developments of Huang et al. Since its introduction advancements in laser diode technology and imagery has allowed for micrometer resolution and is widely used in the Ophthalmology.\cite{bhende_optical_2018} Although OCT produces great resolution there are drawbacks. OCT is notorious for producing a phenomenon called ‘speckle noise’. This review will utilize previous work done using imagery filters to reduce speckle noise and as well create our own simulations to confer.
+Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimensional images of biological tissues. The practice came into prominence in 1991 from the developments of Huang et al. Since its introduction advancements in laser diode technology and imagery has allowed for micrometer resolution and is widely used in the Ophthalmology.\cite{bhende_optical_2018} Although OCT produces great resolution there are drawbacks. OCT is notorious for producing a phenomenon called ‘speckle noise’. This review will utilize previous work done using imagery filters to reduce speckle noise and as well create our own simulations to confer.
 	\end{abstract}
 
 	%\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
@@ -118,29 +99,21 @@ pra,
 	\makeatletter
 	\let\toc@pre\relax
 	\let\toc@post\relax
-	\makeatother	
+	\makeatother
+
   	\listoffigures
   	\listoftables
-  	\addcontentsline{toc}{section}{\hspace{15 pt} List of Code}
-	\makeatletter
-	\renewcommand\lstlistoflistings{
-		\begin{center}
-			\textbf{\small \MakeUppercase{\lstlistlistingname}} \\[1.5ex]
-		\end{center}
-		\vspace{-1em}
-		\@starttoc{lol}
-	}
-	\makeatother
-	
+
+
   	\lstlistoflistings
   	%\makeatletter
 
   	%\print@toc {lol}
   	%\makeatother
 
-	\section{\label{sec:level1}		Introduction}
+	\section{Introduction}
 
-		Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimensional images of internal tissues in a method comparable to that of ultrasound imaging.\cite{Huang91}\cite{sander_optical_2011} The practice came into prominence following the developments of Huang et al. at the Massachusetts Institute of Technology in 1991. \cite{Huang91} Improvements have been made in the technology to provide greater depth and scanning resolution, but certain limitations and problems remain, such as the introduction of speckle noise during scanning.
+	Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimensional images of internal tissues in a method comparable to that of ultrasound imaging.\cite{Huang91}\cite{sander_optical_2011} The practice came into prominence following the developments of Huang et al. at the Massachusetts Institute of Technology in 1991. \cite{Huang91}
 
 
 
@@ -149,18 +122,18 @@ pra,
 	\subsection{\label{sec:level2} The Problem of Speckle Noise}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.8\linewidth]{Figures/specklefilter2}
+		\includegraphics[width=0.7\linewidth]{Figures/specklefilter2}
 		\caption{On the left is an image put through a speckle filter in Matlab. On the right is the original image.}
 		\label{fig:specklefilter2}
 	\end{figure}
-		A problem with using an OCT interferometer is that ‘speckle’ noise exists, which ultimately reduces the quality of the image. Speckle is a phenomenon that is caused by interference of the reflected wave at the photo-detector. Speckle noise is evident when trying to image non-fluid structures (such as hard tissue). As the wave propagates it becomes distorted due to “low-angle multiple forward scattering and diffuse multiple backscattering of coherent photons”. \cite{Popescu2007}
-	
-		In OCT interferometry imaging, photons are detected after one backscattering event for most relevant information, but when a wave is propagated through a dense biological sample it experiences numerous scattering events (in OCT interferometry). These scattering events increase the likelihood for photons to change their travel distance comparative to their airborne path which results in speckle noise reducing the image quality. \cite{Popescu2007}
-	
-		To display the effects of speckling on an image refer to Figure \ref{fig:specklefilter2}. Using $imnoise(I,'speckle',v)$ in Matlab to create a filter that would add multiplicative noise to an image. As seen on the left the image resolution is decreased significantly after adding speckling noise especially in the area of high light reflectivity off of the table.
+	A problem with using an OCT interferometer is that ‘speckle’ noise exists, which ultimately reduces the quality of the image. Speckle is a phenomenon that is caused by interference of the reflected wave at the photo-detector. Speckle noise is evident when trying to image non-fluid structures (such as hard tissue). As the wave propagates it becomes distorted due to “low-angle multiple forward scattering and diffuse multiple backscattering of coherent photons”. \cite{Popescu2007}
+
+	In OCT interferometry imaging, photons are detected after one backscattering event for most relevant information, but when a wave is propagated through a dense biological sample it experiences numerous scattering events (in OCT interferometry). These scattering events increase the likelihood for photons to change their travel distance comparative to their airborne path which results in speckle noise reducing the image quality. \cite{Popescu2007}
+
+	To display the effects of speckling on an image refer to Figure \ref{fig:specklefilter2}. Using $imnoise(I,'speckle',v)$ in Matlab to create a filter that would add multiplicative noise to an image. As seen on the left the image resolution is decreased significantly after adding speckling noise especially in the area of high light reflectivity off of the table.
 
 	\subsection{\label{sec:level2} Possible Solutions for Speckle Noise}
-		As technology progress in imaging processing, techniques are being developed to help reduces the effects of speckle noise when using OCT. Some of these methods include decreasing spatial and temporal coherence of the laser used. While more trivial techniques such as phase-domain processing and zero-adjustments are used to improve image quality due to speckle noise. \cite{Popescu2007}
+	As technology progress in imaging processing, techniques are being developed to help reduces the effects of speckle noise when using OCT. Some of these methods include decreasing spatial and temporal coherence of the laser used. While more trivial techniques such as phase-domain processing and zero-adjustments are used to improve image quality due to speckle noise. \cite{Popescu2007}
 
 	\section{\label{sec:level1} OCT Image Aquisition and Preparation}
 
@@ -172,74 +145,68 @@ pra,
 	\subsection{\label{sec:level2} Slicing and Preparing a 2D Image for Processing}
 		Upon importing the .mat files into Matlab, they took the form of a 650 x 512 x 128 double data type named d3. The Matlab code shown in Listing \ref{code:2dslicecode} shows the process of taking the middle XY slice and creating a greyscale image.
 		\begin{lstlisting}[language=Matlab, caption=Take Slice of 3D Volume, label=code:2dslicecode]
-			%Take Slice of 3D Volume
-			SliceL = d3(:,:,64);
-			ImgSliceL = mat2gray(SliceL, [0 255]);
-			imshow(ImgSliceL);
+	%Take Slice of 3D Volume
+	SliceL = d3(:,:,64);
+	ImgSliceL = mat2gray(SliceL, [0 255]);
+	imshow(ImgSliceL);
 		\end{lstlisting}
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.8\linewidth]{Figures/3dvol}
+			\includegraphics[width=0.7\linewidth]{Figures/3dvol}
 			\caption{3D Volume Visualization Capture}
 			\label{fig:3dvol}
 		\end{figure}
 		An example unaltered aquired image is shown in Figure \ref{fig:2dslice}.
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.8\linewidth]{Figures/2dslice}
+			\includegraphics[width=0.7\linewidth]{Figures/2dslice}
 			\caption{Unaltered 2D Slice of 3D Volume}
 			\label{fig:2dslice}
 		\end{figure}
 
 	\section{\label{sec:level1} Quality Metrics: Signal to Noise Level, and Estimated Noise Level}
-		The results of quality measurements for each applied filter method are listed in Table \ref{tab:compare}. The methods for obtaining the quality metrics are described in the following paragraphs.
+	The results of quality measurements for each applied filter method are listed in Table (**ADD REFERENCE TO TABLE). The methods for obtaining the quality metrics are described in the following paragraphs.
 
 	\subsection{\label{sec:level2} Contrast to Noise (CNR) Estimation}
-		The code shown in Listing \ref{code:cnr} outlines the process for aquiring the contrast to noise estimation. The process starts with taking the 2D image matrix and converting it into a 1D array.
-	
-		The maximum and minimum values are extracted from the 1D matrix, and then the standard deviation is calculated. The final CNR is calculated equivalent to the formula:
-	
-		$$CNR = (\frac{Max-Min}{\text{Standard Deviation}})$$
+	The code shown in Listing \ref{code:cnr} outlines the process for aquiring the contrast to noise estimation. The process starts with taking the 2D image matrix and converting it into a 1D array.
 
-		\begin{lstlisting}[language=Matlab, caption=Estimate Contrast to Noise Ratio, label=code:cnr]
-		% Measure contrast-to-noise ratio
-		img=ImgSliceL;
-		img=double(img(:));
-		ima=max(img(:));
-		imi=min(img(:));
-		mse=std(img(:));
-		cnr=((ima-imi)./mse)
-		\end{lstlisting}
-	
-		In terms of value dictating quality, the higher the value the better.
+	The maximum and minimum values are extracted from the 1D matrix, and then the standard deviation is calculated. The final CNR is calculated equivalent to the formula:
+
+	$$CNR = (\frac{Max-Min}{\text{Standard Deviation}})$$
+
+	\begin{lstlisting}[language=Matlab, caption=Estimate Contrast to Noise Ratio, label=code:cnr]
+	% Measure contrast-to-noise ratio
+	img=ImgSliceL;
+	img=double(img(:));
+	ima=max(img(:));
+	imi=min(img(:));
+	mse=std(img(:));
+	cnr=((ima-imi)./mse)
+	\end{lstlisting}
+
 	\subsection{\label{sec:level2} Estimated Noise Level}
-		The Estimated Noise Level (ENL) is calculated using a method implemented in a Matlab function by Ashish Meshram \cite{meshram_noise_2014}. This implementation is based off of the paper titled \textit{Single-Image Noise Level Estimation for Blind Denoising}  by Xinhao Liu, and team \cite{Liu_2013}.
-		
-		The paper described a patch-based noise level estimation algorithm. A patch of the image is selected based on having a lack of high frequency content. This and other selected patches are then used to provide an estimation of the noise level.
+	The Estimated Noise Level (ENL) is calculated using a method implemented in a Matlab function by Ashish Meshram \cite{meshram_noise_2014}. This implementation is based off of the paper titled \textit{Single-Image Noise Level Estimation for Blind Denoising}  by Xinhao Liu, and team \cite{Liu_2013}.
 	\subsection{\label{sec:level2} Naturalness Image Quality Evaluator (NIQE) No-Reference Image Quality Score}
-	
-		Due to the fact that all obtained images need to be evaluated as is, with no reference image to compare to, it is advantageous to use metrics that do not require a reference image. Matlab has a built-in function called niqe that returns a value (lower is better, indicating higher perceptual quality) using the Naturalness Image Quality Evaluator based off the work of Anish Mittal and team \cite{NIQE_2013}.
-		
-		The creators of this algorithm claim that the results are comparable to other No Reference Image Quality Assessment (NR IQA) models that require opinions from humans about the quality of images from large data-sets to train them.
-	
-  	\subsection{\label{sec:level2} Omission of Mean Squared Error (MSE) for OCT Images}
 
-	  	In the analysis of filter quality, a metric called Mean Squared Error (MSE) is often used to compare an image without any distortion to an image that has been distorted and then filtered. In our analysis we do not have the ability to do this, because we have an image that has distortion inherent in its aquisition.
-	
-	  	In the paper titled \textit{Speckle reduction in optical coherence tomography images using digital filtering} \cite{ozcan_speckle_2007} the reference image used for calculating the MSE of filters was a composite image made from using multiple scans see Figure \ref{fig:Composite} for the reference image used in the paper (where N=64). In these images the N value represents the number of scans used to make the composite.
-	
-	  	\begin{figure*}
-	    	\centering
-	    	\includegraphics[width=0.8\linewidth]{Figures/composite}
-	    	\caption{OCT Captures with Increasing Numbers of Composite Images Used, Adapted From \cite{ozcan_speckle_2007}}
-	    	\label{fig:Composite}
-	 	\end{figure*}
-	
-	  	Since we do not have access to a composite image, or an image without inherent distortion, an MSE evaluation of filtering will be omitted from our report.
+	Due to the fact that all obtained images need to be evaluated as is, with no reference image to compare to, it is advantageous to use a metric that does not require a reference image. Matlab has a built-in function called niqe that returns a value (lower is better, indicating higher perceptual quality) using the Naturalness Image Quality Evaluator based off the work of Anish Mittal and team \cite{NIQE_2013}.
+  \subsection{\label{sec:level2} Omission of Mean Squared Error (MSE) for OCT Images}
+
+  In the analysis of filter quality, a metric called Mean Squared Error (MSE) is often used to compare an image without any distortion to an image that has been distorted and then filtered. In our analysis we do not have the ability to do this, because we have an image that has distortion inherent in its aquisition.
+
+  In the paper titled \textit{Speckle reduction in optical coherence tomography images using digital filtering} \cite{ozcan_speckle_2007} the reference image used for calculating the MSE of filters was a composite image made from using multiple scans see Figure \ref{fig:composite} for the reference image used in the paper (where N=64). In these images the N value represents the number of scans used to make the composite.
+
+  \begin{figure*}
+    \centering
+    \includegraphics[width=0.7\linewidth]{Figures/composite}
+    \caption{OCT Captures with Increasing Numbers of Composite Images Used, Adapted From \cite{ozcan_speckle_2007}}
+    \label{fig:Composite}
+  \end{figure*}
+
+  Since we do not have access to a composite image, or an image without inherent distortion, an MSE evaluation of filtering will be omitted from our report.
 	\section{\label{sec:level1} Scope of DSP Methods Used}
 
 	This report will focus on 2D image filtering methods which can be applied using Matlab, and due to our resources we will not be able to make composite captures from multiple scans.
-	
+
 	\subsection{\label{sec:level2} Wiener Filter}
 	The 2D Wiener filter is a processing technique which is capable of not only improving resolution but as well signal-to-noise (SNR) ratio of particular image. This low-pass filter is an optimal trade-off between inverse filtering and noise smoothing. This filter is also referred to as a local linear minimum mean square error which means [LLMMSE] it is the optimal estimator in the sense of mean squared error (MSE). Where LLMMSE and MSE is determined by:
 $$
@@ -308,7 +275,7 @@ The Kuwahara filter is an edge preserving non-linear smoothing filter. It operat
 For processing the OCT image, we used a Matlab implemenation by Luca Balbi \cite{balbi_faster}.
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{Figures/kusquares}
+  \includegraphics[width=0.5\linewidth]{Figures/kusquares}
   \caption{The Kuwahara Operator \cite{kuwahara_operator}}
   \label{fig:kusquares}
 \end{figure}
@@ -321,7 +288,7 @@ The SNN filter is another sliding window filter that (like Kuwahara) aims to pre
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{Figures/snn}
+  \includegraphics[width=0.5\linewidth]{Figures/snn}
   \caption{Symmetric Nearest Neighbor Pixel Selection \cite{fiveko_symmetric_2017}}
   \label{fig:snn}
 \end{figure}

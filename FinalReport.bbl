@@ -1,0 +1,129 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{rad}{}]{radarlee}
+Radar {Enhanced} {Lee} {Filter}.
+\newblock
+  \url{http://www.pcigeomatics.com/geomatica-help/concepts/orthoengine_c/Chapter_825.html}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{Balbi}{}]{balbi_faster}
+Balbi, L.
+\newblock Faster {Kuwahara} filter - {File} {Exchange} - {MATLAB} {Central}.
+\newblock
+  \url{http://www.mathworks.com/matlabcentral/fileexchange/15027-faster-kuwahara-filter}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{Barnes}{2005}]{barnes_snn_2005}
+Barnes, A. (2005).
+\newblock {SNN} filter - {File} {Exchange} - {MATLAB} {Central}.
+\newblock
+  \url{http://www.mathworks.com/matlabcentral/fileexchange/8174-snn-filter}.
+
+\bibitem[\protect\astroncite{Bhende et~al.}{2018}]{bhende_optical_2018}
+Bhende, M., Shetty, S., Parthasarathy, M.~K., and Ramya, S. (2018).
+\newblock Optical coherence tomography: {A} guide to interpretation of common
+  macular diseases.
+\newblock {\em Indian Journal of Ophthalmology}, 66(1):20--35.
+
+\bibitem[\protect\astroncite{DinoVgk}{}]{kuwahara_operator}
+DinoVgk.
+\newblock The {Kuwahara} {Operator}.
+\newblock \url{https://commons.wikimedia.org/wiki/File:Kuwahara.jpg}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{{fiveko}}{2017}]{fiveko_symmetric_2017}
+{fiveko} (2017).
+\newblock Symmetric {Nearest} {Neighbor} {Filter}.
+\newblock
+  \url{http://fiveko.com/tutorials/image-processing/symmetric-nearest-neighbor-filter/}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{Garcia}{2010}]{garcia_hybrid_2010}
+Garcia, D. (2010).
+\newblock Hybrid median filtering - {File} {Exchange} - {MATLAB} {Central}.
+\newblock
+  \url{http://www.mathworks.com/matlabcentral/fileexchange/25825-hybrid-median-filtering}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{Huang et~al.}{1991}]{Huang91}
+Huang, D., Swanson, E.~A., Lin, C.~P., Schuman, J.~S., Stinson, W.~G., Chang,
+  W., Hee, M.~R., Flotte, T., Gregory, K., Puliafito, C.~A., and Et, A. (1991).
+\newblock Optical coherence tomography.
+\newblock {\em Science}, 254(5035):1178--1181.
+
+\bibitem[\protect\astroncite{Liu et~al.}{2013}]{Liu_2013}
+Liu, X., Tanaka, M., and Okutomi, M. (2013).
+\newblock Single-image noise level estimation for blind denoising.
+\newblock {\em IEEE Transactions on Image Processing}, 22(12):5226--5237.
+
+\bibitem[\protect\astroncite{Mastriani and Giraldez}{}]{leefilter}
+Mastriani, M. and Giraldez, A.~E.
+\newblock Enhanced directional smoothing algorithm for edge-preserving
+  smoothing of synthetic-aperture radar images.
+\newblock
+  \url{http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/speckle-function.htm#GUID-F45976F8-09C5-4344-B249-FBAA03517B8A}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{Meshram}{2014}]{meshram_noise_2014}
+Meshram, A. (2014).
+\newblock Noise {Level} {Estimation}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{Mittal et~al.}{2013}]{NIQE_2013}
+Mittal, A., Soundararajan, R., and Bovik, A.~C. (2013).
+\newblock Making a completely blind image quality analyzer.
+\newblock {\em IEEE Signal Processing Letters}, 20(3):209--212.
+
+\bibitem[\protect\astroncite{Oppenheim and C.}{2015}]{Oppenheim_2015}
+Oppenheim, A.~V. and C., V.~G. (2015).
+\newblock {\em Optical {Coherence} {Tomography}: {Principles} and
+  {Applications}}.
+\newblock Pearson.
+
+\bibitem[\protect\astroncite{Ozcan et~al.}{2007}]{ozcan_speckle_2007}
+Ozcan, A., Bilenca, A., Desjardins, A.~E., Bouma, B.~E., and Tearney, G.~J.
+  (2007).
+\newblock Speckle reduction in optical coherence tomography images using
+  digital filtering.
+\newblock {\em Journal of the Optical Society of America. A, Optics, image
+  science, and vision}, 24(7):1901--1910.
+
+\bibitem[\protect\astroncite{Papari et~al.}{2007}]{Papari_2007}
+Papari, G., Petkov, N., and Campisi, P. (2007).
+\newblock Artistic edge and corner enhancing smoothing.
+\newblock {\em IEEE Transactions on Image Processing}, 16(10):2449--2462.
+
+\bibitem[\protect\astroncite{Popescu et~al.}{2006}]{Popescu2007}
+Popescu, D.~P., Hewko, M.~D., and Sowa, M.~G. (2006).
+\newblock Speckle noise attenuation in optical coherence tomography by
+  compounding images acquired at different positions of the sample.
+\newblock {\em Optics Communications}, 269.
+
+\bibitem[\protect\astroncite{Rabie}{2004}]{rabie_adaptive_2004}
+Rabie, T. (2004).
+\newblock Adaptive hybrid mean and median filtering of high-{ISO} long-exposure
+  sensor noise for digital photography.
+\newblock {\em J. Electronic Imaging}, 13:264--277.
+
+\bibitem[\protect\astroncite{Sander and Li}{2011}]{sander_optical_2011}
+Sander, B. and Li, X.~Q. (2011).
+\newblock Optical {Coherence} {Tomography}: {A} review of current technology
+  and its implications for clinical applications.
+\newblock {\em Scandinavian Journal of Optometry and Visual Science},
+  4(2):1--4.
+
+\bibitem[\protect\astroncite{Stough}{}]{stough}
+Stough, J.
+\newblock 3d {Volume} {Visualization} - {File} {Exchange} - {MATLAB} {Central}.
+\newblock
+  \url{http://www.mathworks.com/matlabcentral/fileexchange/37268-3d-volume-visualization}.
+\newblock [Online; accessed 18-April-2008].
+
+\bibitem[\protect\astroncite{{Tahereh Mahmudi} et~al.}{2014}]{tahereh_2014}
+{Tahereh Mahmudi}, {Rahele Kafieh}, {Hossein Rabbani}, {Alireza Mehri dehnavi},
+  and {Mohammadreza Akhlagi} (2014).
+\newblock Comparison of macular {OCTs} in right and left eyes of normal people.
+\newblock volume 9038, pages 90381W--9038--6.
+
+\end{thebibliography}

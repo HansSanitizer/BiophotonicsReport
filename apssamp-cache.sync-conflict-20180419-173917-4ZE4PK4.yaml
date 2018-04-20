@@ -71,17 +71,24 @@ options:
   $PATH: 'C:\texlive\2017\bin\win32'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2018-04-20T00:51:04.837Z
+    timeStamp: 2018-04-19T06:05:59.800Z
     jobNames: []
     value:
       severity: info
     type: ParsedYAML
-  'C:\Users\J-Bro\AppData\Roaming\dicy\config.yaml':
-    timeStamp: 2018-04-20T00:43:54.079Z
+  dicy.yaml-ParsedYAML:
     jobNames: []
-    type: YAML
+    type: ParsedYAML
+  apssamp.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  apssamp.tex-ParsedLaTeXMagic:
+    timeStamp: 2018-04-17T22:38:04.410Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
   'C:\Users\J-Bro\AppData\Roaming\dicy\config.yaml-ParsedYAML':
-    timeStamp: 2018-04-20T00:45:26.582Z
+    timeStamp: 2018-04-17T22:38:04.405Z
     jobNames: []
     value:
       synctex: true
@@ -122,68 +129,131 @@ files:
       intermediatePostScript: false
       $PATH: 'C:\texlive\2017\bin\win32'
     type: ParsedYAML
-  dicy.yaml-ParsedYAML:
-    jobNames: []
-    type: ParsedYAML
-  apssamp.yaml-ParsedYAML:
-    jobNames: []
-    type: ParsedYAML
-  apssamp.tex-ParsedLaTeXMagic:
-    timeStamp: 2018-04-20T00:45:31.139Z
-    jobNames: []
-    value: {}
-    type: ParsedLaTeXMagic
   apssamp.tex:
-    timeStamp: 2018-04-20T00:51:41.483Z
+    timeStamp: 2018-04-19T06:10:49.369Z
     jobNames: []
-    hash: tqdIegc7rTc7+4tlcmlXb3Ix0Z2J5c/A7OiXZs9Wi6Q=
+    hash: lNFnU2Vbh0O0M7R8/jlD/NbpmWegIW+t0BRafUrjaR8=
     type: LaTeX
     subType: revtex4-1
+  'C:\Users\J-Bro\AppData\Roaming\dicy\config.yaml':
+    timeStamp: 2018-04-19T06:05:59.900Z
+    jobNames: []
+    type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   apssamp.blg:
-    timeStamp: 2018-04-20T00:51:42.408Z
+    timeStamp: 2018-04-19T06:10:54.136Z
     jobNames: []
-    hash: tQsgsmL2RUuH8K+Wm1gR/2FH2MEBRB0ZZSnVV1OysvE=
+    hash: JiJTmoWlKYqJyHllQyT/wc8Fooso/L/ITvIwFSgEhGo=
     type: BibTeXLog
     subType: BibTeX
   apssamp.log:
-    timeStamp: 2018-04-20T00:51:12.056Z
+    timeStamp: 2018-04-19T06:10:55.353Z
     jobNames: []
-    hash: rq8zrGIJcTUhOHzp6O5SMW6FT8i0IvIS4NB8U05dvkI=
+    hash: kHC8SqcXztvUAayQd/skrb0hNLpGJhzOteU+H4gkNZs=
     type: LaTeXLog
     subType: pdfTeX
   apssamp.fls-ParsedFileListing:
-    timeStamp: 2018-04-20T00:51:10.527Z
+    timeStamp: 2018-04-19T06:10:55.475Z
     jobNames: []
     value:
       messages: []
       inputs:
+        - Figures\2dslice.png
+        - Figures\3dvol.png
+        - Figures\specklefilter2.png
         - apssamp.aux
+        - apssamp.bbl
+        - apssamp.lof
+        - apssamp.lot
         - apssamp.out
         - apssamp.tex
+        - apssamp.toc
         - 'c:\texlive\2017\texmf-dist\fonts\map\fontname\texfonts.map'
-        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr10.tfm'
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm'
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msam5.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msam7.tfm'
+        - >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msbm5.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msbm7.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbsy10.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx10.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx12.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx5.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx7.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmib10.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr12.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx12.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx9.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmex10.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi10.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi7.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr10.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr9.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti9.pfb'
+        - 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb'
         - 'c:\texlive\2017\texmf-dist\tex\context\base\mkii\supp-pdf.mkii'
         - 'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty'
         - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty'
         - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
         - 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\CaseFolding.txt'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\SpecialCasing.txt'
-        - 'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\UnicodeData.txt'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\amsfonts.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\amssymb.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\umsa.fd'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\umsb.fd'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amsbsy.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amsgen.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amsmath.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amsopn.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amstext.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\booktabs\booktabs.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption3.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\etoolbox\etoolbox.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\graphics.cfg'
         - 'c:\texlive\2017\texmf-dist\tex\latex\graphics-def\pdftex.def'
@@ -196,14 +266,11 @@ files:
         - 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3-code.tex'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\l3pdfmode.def'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\l3packages\xparse\xparse.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\epstopdf-sys.cfg'
         - 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg'
         - 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg'
         - 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty'
+        - 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\natbib\natbib.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty'
@@ -215,25 +282,28 @@ files:
         - 'c:\texlive\2017\texmf-dist\tex\latex\revtex\aps4-1.rtx'
         - 'c:\texlive\2017\texmf-dist\tex\latex\revtex\revsymb4-1.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\revtex\revtex4-1.cls'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\sauerj\parcolumns.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\sauerj\processkv.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\subfig\subfig.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\textcase\textcase.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\tools\array.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\tools\bm.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\tools\dcolumn.sty'
         - 'c:\texlive\2017\texmf-dist\tex\latex\url\url.sty'
-        - 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
         - 'c:\texlive\2017\texmf-dist\web2c\texmf.cnf'
+        - 'c:\texlive\2017\texmf-var\fonts\map\pdftex\updmap\pdftex.map'
         - 'c:\texlive\2017\texmf-var\web2c\pdftex\pdflatex.fmt'
         - 'c:\texlive\2017\texmf.cnf'
       outputs:
         - apssamp.aux
+        - apssamp.lof
         - apssamp.log
+        - apssamp.lot
+        - apssamp.out
+        - apssamp.pdf
+        - apssamp.toc
+        - apssampNotes.bib
       calls: []
     type: ParsedFileListing
   apssamp.log-ParsedLaTeXLog:
-    timeStamp: 2018-04-20T00:51:12.084Z
+    timeStamp: 2018-04-19T06:10:55.469Z
     jobNames: []
     value:
       messages:
@@ -1548,760 +1618,6 @@ files:
             range:
               start: 344
               end: 345
-        - name: pdfTeX
-          severity: info
-          text: 'subfig 2005/06/28 ver: 1.3 subfig package'
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\subfig\subfig.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 349
-              end: 349
-        - name: pdfTeX
-          severity: info
-          text: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 351
-              end: 351
-        - name: pdfTeX
-          severity: info
-          text: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption3.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 353
-              end: 353
-        - severity: info
-          name: pdfTeX
-          category: Package caption3
-          text: 'TeX engine: e-TeX'
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption3.sty'
-            range:
-              start: 67
-              end: 67
-          log:
-            file: apssamp.log
-            range:
-              start: 354
-              end: 354
-        - severity: info
-          name: pdfTeX
-          category: Package caption
-          text: 'Unknown document class (or package), standard defaults will be used.'
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption3.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 362
-              end: 363
-        - severity: warning
-          name: pdfTeX
-          category: Package caption
-          text: >-
-            Unsupported document class (or package) detected, usage of the
-            caption package is not recommended.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 366
-              end: 367
-        - severity: info
-          name: pdfTeX
-          category: Package caption
-          text: >-
-            \@makecaption = \long macro:#1#2->\par \vskip \abovecaptionskip
-            \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr
-            \@make@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize
-            }{\begingroup \samepage \flushing \let \footnote
-            \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \endgroup
-            }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa
-            \hfil }}\endgroup \vskip \belowcaptionskip .
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 370
-              end: 375
-        - severity: info
-          name: pdfTeX
-          category: Package caption
-          text: hyperref package is loaded.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 377
-              end: 377
-        - severity: info
-          name: pdfTeX
-          category: Package caption
-          text: listings package is loaded.
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 378
-              end: 378
-        - name: pdfTeX
-          severity: info
-          text: parcolumns 2004/11/25 v1.2 Typeset multiple parallel columns
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\sauerj\parcolumns.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 394
-              end: 394
-        - name: pdfTeX
-          severity: info
-          text: processkv 2004/08/09 v1.0.1 process key=value lists
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\sauerj\processkv.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 396
-              end: 396
-        - name: pdfTeX
-          severity: info
-          text: expl3 2017/07/19 L3 programming layer (loader)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 403
-              end: 403
-        - name: pdfTeX
-          severity: info
-          text: expl3 2017/07/19 L3 programming layer (code)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3-code.tex'
-          log:
-            file: apssamp.log
-            range:
-              start: 405
-              end: 405
-        - name: pdfTeX
-          severity: info
-          text: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 552
-              end: 552
-        - name: pdfTeX
-          severity: info
-          text: xparse 2017/07/19 L3 Experimental document command parser
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\l3packages\xparse\xparse.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 554
-              end: 554
-        - name: pdfTeX
-          severity: info
-          text: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\etoolbox\etoolbox.sty'
-          log:
-            file: apssamp.log
-            range:
-              start: 561
-              end: 561
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 125
-              end: 125
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchcmd with sig. ''.
-          log:
-            file: apssamp.log
-            range:
-              start: 564
-              end: 568
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 126
-              end: 126
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretocmd with sig. ''.
-          log:
-            file: apssamp.log
-            range:
-              start: 569
-              end: 573
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 127
-              end: 127
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptocmd with sig. ''.
-          log:
-            file: apssamp.log
-            range:
-              start: 574
-              end: 578
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 128
-              end: 128
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowcmd with sig. ''.
-          log:
-            file: apssamp.log
-            range:
-              start: 579
-              end: 583
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 131
-              end: 131
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchbibmacro with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 584
-              end: 588
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 133
-              end: 133
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretobibmacro with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 589
-              end: 593
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 135
-              end: 135
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptobibmacro with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 594
-              end: 598
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 137
-              end: 137
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowbibmacro with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 599
-              end: 603
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 139
-              end: 139
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchfieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 604
-              end: 608
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 141
-              end: 141
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretofieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 609
-              end: 613
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 143
-              end: 143
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptofieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 614
-              end: 618
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 145
-              end: 145
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowfieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 619
-              end: 623
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 147
-              end: 147
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchnameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 624
-              end: 628
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 149
-              end: 149
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretonameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 629
-              end: 633
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 151
-              end: 151
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptonameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 634
-              end: 638
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 153
-              end: 153
-          text: |-
-            "xparse/define-command"
-            Defining command \xshownameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 639
-              end: 643
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 155
-              end: 155
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchlistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 644
-              end: 648
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 157
-              end: 157
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretolistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 649
-              end: 653
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 159
-              end: 159
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptolistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 654
-              end: 658
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 161
-              end: 161
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowlistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 659
-              end: 663
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 163
-              end: 163
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchindexfieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 664
-              end: 668
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 165
-              end: 165
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretoindexfieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 669
-              end: 673
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 167
-              end: 167
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptoindexfieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 674
-              end: 678
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 169
-              end: 169
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowindexfieldformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 679
-              end: 683
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 171
-              end: 171
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchindexnameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 684
-              end: 688
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 173
-              end: 173
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretoindexnameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 689
-              end: 693
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 175
-              end: 175
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptoindexnameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 694
-              end: 698
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 177
-              end: 177
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowindexnameformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 699
-              end: 703
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 179
-              end: 179
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchindexlistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 704
-              end: 708
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 181
-              end: 181
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretoindexlistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 709
-              end: 713
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 183
-              end: 183
-          text: |-
-            "xparse/define-command"
-            Defining command \xappindextolistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 714
-              end: 718
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 185
-              end: 185
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowindexlistformat with sig. 'O{*}m'.
-          log:
-            file: apssamp.log
-            range:
-              start: 719
-              end: 723
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 187
-              end: 187
-          text: |-
-            "xparse/define-command"
-            Defining command \xpatchbibdriver with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 724
-              end: 728
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 189
-              end: 189
-          text: |-
-            "xparse/define-command"
-            Defining command \xpretobibdriver with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 729
-              end: 733
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 191
-              end: 191
-          text: |-
-            "xparse/define-command"
-            Defining command \xapptobibdriver with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 734
-              end: 738
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          source:
-            file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-            range:
-              start: 193
-              end: 193
-          text: |-
-            "xparse/define-command"
-            Defining command \xshowbibdriver with sig. 'm'.
-          log:
-            file: apssamp.log
-            range:
-              start: 739
-              end: 743
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -2311,13 +1627,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 745
-              end: 746
+              start: 349
+              end: 350
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -2325,13 +1641,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 747
-              end: 747
+              start: 351
+              end: 351
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -2339,13 +1655,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 749
-              end: 749
+              start: 353
+              end: 353
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -2353,13 +1669,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 750
-              end: 750
+              start: 354
+              end: 354
         - severity: info
           name: pdfTeX
           category: Class revtex4-1
@@ -2367,13 +1683,167 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 751
-              end: 751
+              start: 355
+              end: 355
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level1'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 360
+              end: 360
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 363
+              end: 363
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level1'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 366
+              end: 366
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 369
+              end: 369
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 372
+              end: 372
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level1'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 375
+              end: 375
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 378
+              end: 378
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 381
+              end: 381
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 384
+              end: 384
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level1'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 387
+              end: 387
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 390
+              end: 390
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 393
+              end: 393
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level2'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 396
+              end: 396
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: 'Label `sec:level1'' multiply defined.'
+          source:
+            file: apssamp.aux
+          log:
+            file: apssamp.log
+            range:
+              start: 399
+              end: 399
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -2381,13 +1851,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 757
-              end: 758
+              start: 404
+              end: 405
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -2395,13 +1865,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 759
-              end: 760
+              start: 406
+              end: 407
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -2409,13 +1879,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 761
-              end: 762
+              start: 408
+              end: 409
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -2423,13 +1893,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 763
-              end: 764
+              start: 410
+              end: 411
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -2437,13 +1907,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 765
-              end: 766
+              start: 412
+              end: 413
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -2451,13 +1921,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 767
-              end: 768
+              start: 414
+              end: 415
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -2465,13 +1935,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 769
-              end: 770
+              start: 416
+              end: 417
         - name: pdfTeX
           severity: info
           text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2480,8 +1950,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 785
-              end: 785
+              start: 432
+              end: 432
         - name: pdfTeX
           severity: info
           text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -2490,8 +1960,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 787
-              end: 787
+              start: 434
+              end: 434
         - severity: info
           name: pdfTeX
           category: Package epstopdf-base
@@ -2504,8 +1974,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 789
-              end: 790
+              start: 436
+              end: 437
         - severity: info
           name: pdfTeX
           category: Package grfext
@@ -2521,8 +1991,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 791
-              end: 794
+              start: 438
+              end: 441
         - severity: info
           name: pdfTeX
           category: Package hyperref
@@ -2530,13 +2000,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 801
-              end: 801
+              start: 448
+              end: 448
         - name: pdfTeX
           severity: info
           text: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2545,8 +2015,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 803
-              end: 803
+              start: 450
+              end: 450
         - name: pdfTeX
           severity: info
           text: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -2555,8 +2025,8 @@ files:
           log:
             file: apssamp.log
             range:
-              start: 805
-              end: 805
+              start: 452
+              end: 452
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -2564,13 +2034,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 809
-              end: 809
+              start: 456
+              end: 456
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -2578,13 +2048,13 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 810
-              end: 810
+              start: 457
+              end: 457
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -2592,146 +2062,441 @@ files:
           source:
             file: apssamp.tex
             range:
-              start: 94
-              end: 94
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 811
-              end: 811
-        - severity: error
+              start: 458
+              end: 458
+        - severity: info
           name: pdfTeX
-          text: I can't write on file `apssamp.pdf'
+          category: Class revtex4-1
+          text: Taking \maketitle back from hyperref
+          source:
+            file: apssamp.tex
+            range:
+              start: 90
+              end: 90
           log:
             file: apssamp.log
             range:
-              start: 817
-              end: 818
+              start: 467
+              end: 467
+        - severity: warning
+          name: pdfTeX
+          category: Package hyperref
+          text: 'Token not allowed in a PDF string (PDFDocEncoding): removing `\\''.'
           source:
-            file: apssamp.out
+            file: apssamp.tex
+            range:
+              start: 111
+              end: 111
+          log:
+            file: apssamp.log
+            range:
+              start: 477
+              end: 478
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msa
+          source:
+            file: apssamp.lof
             range:
               start: 1
               end: 1
-        - severity: error
-          name: pdfTeX
-          text: Emergency stop
           log:
             file: apssamp.log
             range:
-              start: 821
-              end: 822
+              start: 489
+              end: 489
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msb
           source:
-            file: apssamp.out
+            file: apssamp.lof
             range:
               start: 1
               end: 1
+          log:
+            file: apssamp.log
+            range:
+              start: 493
+              end: 493
+        - severity: warning
+          name: pdfTeX
+          category: Package hyperref
+          text: >-
+            Difference (2) between bookmark levels is greater than one, level
+            fixed.
+          source:
+            file: apssamp.tex
+            range:
+              start: 125
+              end: 125
+          log:
+            file: apssamp.log
+            range:
+              start: 507
+              end: 508
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: Figures/specklefilter2.png used on input line 135.
+          source:
+            file: apssamp.tex
+            range:
+              start: 135
+              end: 135
+          log:
+            file: apssamp.log
+            range:
+              start: 518
+              end: 519
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'Requested size: 172.19925pt x 57.82265pt'
+          source:
+            file: apssamp.tex
+            range:
+              start: 135
+              end: 135
+          log:
+            file: apssamp.log
+            range:
+              start: 520
+              end: 521
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: Figures/3dvol.png used on input line 164.
+          source:
+            file: apssamp.tex
+            range:
+              start: 164
+              end: 164
+          log:
+            file: apssamp.log
+            range:
+              start: 542
+              end: 543
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'Requested size: 172.19925pt x 165.99495pt'
+          source:
+            file: apssamp.tex
+            range:
+              start: 164
+              end: 164
+          log:
+            file: apssamp.log
+            range:
+              start: 544
+              end: 545
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: Figures/2dslice.png used on input line 171.
+          source:
+            file: apssamp.tex
+            range:
+              start: 171
+              end: 171
+          log:
+            file: apssamp.log
+            range:
+              start: 549
+              end: 550
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'Requested size: 172.19925pt x 186.50299pt'
+          source:
+            file: apssamp.tex
+            range:
+              start: 171
+              end: 171
+          log:
+            file: apssamp.log
+            range:
+              start: 551
+              end: 552
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Empty hook `AfterLastShipout'
+          source:
+            file: apssamp.tex
+            range:
+              start: 278
+              end: 278
+          log:
+            file: apssamp.log
+            range:
+              start: 620
+              end: 620
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Executing hook `AtVeryEndDocument'
+          source:
+            file: apssamp.tex
+            range:
+              start: 278
+              end: 278
+          log:
+            file: apssamp.log
+            range:
+              start: 624
+              end: 624
+        - severity: info
+          name: pdfTeX
+          category: Package atveryend
+          text: Executing hook `AtEndAfterFileList'
+          source:
+            file: apssamp.tex
+            range:
+              start: 278
+              end: 278
+          log:
+            file: apssamp.log
+            range:
+              start: 625
+              end: 625
+        - severity: info
+          name: pdfTeX
+          category: Package rerunfilecheck
+          text: >-
+            File `apssamp.out' has not changed. Checksum:
+            2A3DA3C377F7E7809BA6111502C0A591;1853.
+          source:
+            file: apssamp.tex
+          log:
+            file: apssamp.log
+            range:
+              start: 626
+              end: 627
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: There were multiply-defined labels.
+          source:
+            file: apssamp.tex
+          log:
+            file: apssamp.log
+            range:
+              start: 629
+              end: 629
       inputs: []
-      outputs: []
+      outputs:
+        - apssamp.pdf
       calls: []
     type: ParsedLaTeXLog
   apssamp.blg-ParsedBibTeXLog:
-    timeStamp: 2018-04-20T00:51:11.242Z
+    timeStamp: 2018-04-19T00:20:22.202Z
     jobNames: []
     value:
-      messages: []
+      messages:
+        - severity: warning
+          name: BibTeX
+          text: 'to sort, need author or key in radarlee'
+          log:
+            file: apssamp.blg
+            range:
+              start: 7
+              end: 7
+        - severity: warning
+          name: BibTeX
+          text: empty year in radarlee
+          log:
+            file: apssamp.blg
+            range:
+              start: 8
+              end: 8
+        - severity: warning
+          name: BibTeX
+          text: empty year in leefilter
+          log:
+            file: apssamp.blg
+            range:
+              start: 9
+              end: 9
+        - severity: warning
+          name: BibTeX
+          text: empty year in stough
+          log:
+            file: apssamp.blg
+            range:
+              start: 10
+              end: 10
+        - severity: warning
+          name: BibTeX
+          text: empty booktitle in tahereh_2014
+          log:
+            file: apssamp.blg
+            range:
+              start: 11
+              end: 11
       inputs:
         - "apssamp.aux\r"
+        - "c:\\texlive\\2017\\texmf-dist\\bibtex\\bst\\beebe\\apa.bst\r"
+        - "apssampNotes.bib\r"
+        - "apssamp.bib\r"
       outputs: []
       calls: []
     type: ParsedBibTeXLog
+  apssamp.pdf:
+    timeStamp: 2018-04-19T06:10:55.347Z
+    jobNames: []
+    hash: PiJIOEfqYlbDYhyVWwsoqQlJiCQRbadEyWOS7l4+N34=
+    type: PortableDocumentFormat
   apssamp.aux:
-    timeStamp: 2018-04-20T00:51:12.053Z
+    timeStamp: 2018-04-19T06:10:55.292Z
     jobNames: []
-    hash: lAuR6/30ed9BciVbmMPLUKm0cs61Gb7O8Cmxn+N5xGg=
+    hash: rLwA4yISFE+cMoQBB34HAI5gwZdVTxXegCqEpojmD80=
     type: LaTeXAuxilary
-  apssamp.fls:
-    timeStamp: 2018-04-20T00:51:12.058Z
+  apssamp.synctex.gz:
+    timeStamp: 2018-04-19T06:10:55.351Z
     jobNames: []
-    hash: chre+Z2M65tGAyiu8OeM3bnDc8h7I8Y0jCJsu4llXBg=
-    type: FileListing
+    hash: KkKTZz37XsovIRVNKrQCJVg8R3GLpMzl1jx72pq+va0=
+    type: SyncTeX
   apssamp.aux-ParsedLaTeXAuxilary:
-    timeStamp: 2018-04-20T00:51:10.506Z
+    timeStamp: 2018-04-19T06:10:53.586Z
     jobNames: []
     value:
       commands:
         - relax
         - providecommand
+        - providecommand
+        - HyperFirstAtBeginDocument
+        - global
+        - gdef
+        - global
+        - gdef
+        - gdef
+        - AtEndDocument
+        - let
+        - let
+        - fi
+        - fi
+        - global
+        - gdef
+        - providecommand
+        - providecommand
+        - citation
+        - gdef
+        - gdef
+        - gdef
+        - gdef
+        - gdef
+        - gdef
+        - citation
+        - citation
+        - citation
+        - citation
+        - citation
+        - newlabel
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - citation
+        - citation
+        - citation
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - citation
+        - citation
+        - citation
+        - citation
+        - citation
+        - citation
+        - bibdata
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - newlabel
+        - '@writefile'
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibcite
+        - bibstyle
+        - newlabel
+        - '@writefile'
+        - '@writefile'
+        - newlabel
+        - newlabel
     type: ParsedLaTeXAuxilary
-  Figures\2dslice.png:
-    timeStamp: 2018-04-19T17:38:04.337Z
-    jobNames: []
-    hash: ++auQQ50jBxBA4AEpwyeQH++dRR4RHhSxu/JQWwD/O4=
-  Figures\3dvol.png:
-    timeStamp: 2018-04-18T22:37:15.486Z
-    jobNames: []
-    hash: oX5bnXayqzhFJcWHaiyEumdKFxs5k43jbqFalNYl/rk=
-  Figures\Ku.png:
-    timeStamp: 2018-04-19T21:18:50.263Z
-    jobNames: []
-    hash: 1dTcnYKD6FBSH4DMbJCqVLLgcf7OrT2F/Syqdio3whI=
-  Figures\SNNFilt.png:
-    timeStamp: 2018-04-19T21:18:33.607Z
-    jobNames: []
-    hash: OKYHi2PtITFrNlnj4/JPjFP3ohNfEkjcUI1U6YfL1Ts=
-  Figures\composite.png:
-    timeStamp: 2018-04-19T20:44:07.479Z
-    jobNames: []
-    hash: QNwGrmlxpeJYCqRs9usL163Wk6l/F/3Ed+gB9a2LEqk=
-  Figures\hybrid.png:
-    timeStamp: 2018-04-19T21:17:57.856Z
-    jobNames: []
-    hash: Q7GldBUDkRJpk/LXNjaWvKoaesSDdTA8+oy3gnOwsPQ=
-  Figures\kusquares.jpg:
-    timeStamp: 2018-04-19T18:21:14.189Z
-    jobNames: []
-    hash: Dg2Y2MGcwGsVv+ke9JNtc1VFIYPSHqy0rJLkD+pVVcI=
-  Figures\lee.png:
-    timeStamp: 2018-04-19T21:18:13.412Z
-    jobNames: []
-    hash: 8/45DwBMwpK0/AI1KD3awiMMC5hxGBYM1wm8rKEpng8=
-  Figures\orig.png:
-    timeStamp: 2018-04-19T21:17:21.606Z
-    jobNames: []
-    hash: +CfmCIL8HVEP0p5wCF0M7Jl9nUpI3O4IJEBUuxf7BH8=
-  Figures\snn.png:
-    timeStamp: 2018-04-19T19:32:17.961Z
-    jobNames: []
-    hash: L1UFrX860DOKo++7SF7lyY6/3N1CT4pWPrXYIrBYnI8=
   Figures\specklefilter2.png:
     timeStamp: 2018-03-14T00:23:22.276Z
     jobNames: []
     hash: +LCaE1Bdqob1Y5dY9en6YGN30FPBmC4lGQFBqgN9muk=
-  Figures\wiener.png:
-    timeStamp: 2018-04-19T21:17:39.076Z
+  apssamp.lof:
+    timeStamp: 2018-04-19T06:10:55.297Z
     jobNames: []
-    hash: aq6kQt8sU0sZY44VQbTvJUBB41jUhL+gVqzEYGY8tvg=
-  apssamp.bbl:
-    timeStamp: 2018-04-20T00:51:42.406Z
+    hash: p6jm6xZCzADV0gMgfGYRfaxrU8D6EmSHT0uXa3WeNq8=
+    type: ListOfFigures
+  apssamp.lot:
+    timeStamp: 2018-04-19T06:10:54.894Z
     jobNames: []
     hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-  apssamp.lof:
-    timeStamp: 2018-04-20T00:51:07.884Z
-    jobNames: []
-    hash: 7jvPWFHvirM9L+uHiFYY637GrlrJ0vnUcrVh/PKMg/g=
-    type: ListOfFigures
-  apssamp.lol:
-    timeStamp: 2018-04-20T00:51:07.886Z
-    jobNames: []
-    hash: 8ceMKReV/uFMjTM2MVFTRM4A5dyhRNZRzn4LKEqbkxE=
-  apssamp.lot:
-    timeStamp: 2018-04-20T00:51:07.885Z
-    jobNames: []
-    hash: w9vXkQc89OA0G+OI5/GiOmLeSD4htmk6wDvy5gllhog=
     type: ListOfTables
-  apssamp.out:
-    timeStamp: 2018-04-20T00:51:07.882Z
-    jobNames: []
-    hash: zorE09YNKMFgCazQUQFlWcoZTSk7C9yElY7w//jp3bQ=
-    type: OUT
   apssamp.toc:
-    timeStamp: 2018-04-20T00:51:07.884Z
+    timeStamp: 2018-04-19T06:10:55.296Z
     jobNames: []
-    hash: 71Q4JG8Qk0Ijc95+Mu7xJdZsmxC11sZXCMAFkR/ppUw=
+    hash: vyCsQsT3deJCpAvipSPR78WwDygukr3Lbu79rmGVJ5k=
     type: TableOfContents
   'c:\texlive\2017\texmf-dist\fonts\map\fontname\texfonts.map':
     timeStamp: 2017-08-12T17:10:17.573Z
@@ -2739,41 +2504,17 @@ files:
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm':
     timeStamp: 2017-08-12T17:02:35.505Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm':
-    timeStamp: 2017-08-12T17:02:35.505Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm':
     timeStamp: 2017-08-12T17:02:35.506Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm':
-    timeStamp: 2017-08-12T17:02:35.507Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm':
-    timeStamp: 2017-08-12T17:02:35.508Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm':
     timeStamp: 2017-08-12T17:02:35.511Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm':
-    timeStamp: 2017-08-12T17:02:35.512Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm':
-    timeStamp: 2017-08-12T17:02:35.512Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm':
     timeStamp: 2017-08-12T17:02:35.513Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm':
-    timeStamp: 2017-08-12T17:02:35.514Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm':
     timeStamp: 2017-08-12T17:02:35.515Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm':
-    timeStamp: 2017-08-12T17:02:35.516Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm':
-    timeStamp: 2017-08-12T17:02:35.517Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msam10.tfm':
     timeStamp: 2017-08-12T17:02:35.657Z
@@ -2805,65 +2546,23 @@ files:
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx5.tfm':
     timeStamp: 2017-08-12T17:05:38.948Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm':
-    timeStamp: 2017-08-12T17:05:38.949Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx7.tfm':
     timeStamp: 2017-08-12T17:05:38.950Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm':
-    timeStamp: 2017-08-12T17:05:38.951Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx9.tfm':
     timeStamp: 2017-08-12T17:05:38.952Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm':
-    timeStamp: 2017-08-12T17:05:38.964Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm':
-    timeStamp: 2017-08-12T17:05:38.966Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm':
-    timeStamp: 2017-08-12T17:05:38.967Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmib10.tfm':
     timeStamp: 2017-08-12T17:05:38.968Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr10.tfm':
-    timeStamp: 2017-08-12T17:05:38.969Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr12.tfm':
     timeStamp: 2017-08-12T17:05:38.969Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm':
-    timeStamp: 2017-08-12T17:05:38.972Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm':
-    timeStamp: 2017-08-12T17:05:38.974Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr9.tfm':
     timeStamp: 2017-08-12T17:05:38.974Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm':
-    timeStamp: 2017-08-12T17:05:39.083Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm':
-    timeStamp: 2017-08-12T17:05:39.085Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm':
-    timeStamp: 2017-08-12T17:05:39.085Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm':
-    timeStamp: 2017-08-12T17:05:39.089Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti9.tfm':
     timeStamp: 2017-08-12T17:05:39.093Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm':
-    timeStamp: 2017-08-12T17:05:39.097Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx10.pfb':
-    timeStamp: 2017-08-12T17:02:35.675Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx12.pfb':
     timeStamp: 2017-08-12T17:02:35.677Z
@@ -2871,73 +2570,53 @@ files:
   'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx9.pfb':
     timeStamp: 2017-08-12T17:02:35.690Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmex10.pfb':
-    timeStamp: 2017-08-12T17:02:35.703Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi10.pfb':
     timeStamp: 2017-08-12T17:02:35.719Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi7.pfb':
-    timeStamp: 2017-08-12T17:02:35.729Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr10.pfb':
     timeStamp: 2017-08-12T17:02:35.741Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb':
-    timeStamp: 2017-08-12T17:02:35.749Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb':
-    timeStamp: 2017-08-12T17:02:35.756Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr9.pfb':
     timeStamp: 2017-08-12T17:02:35.759Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb':
-    timeStamp: 2017-08-12T17:02:35.814Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb':
-    timeStamp: 2017-08-12T17:02:35.822Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb':
-    timeStamp: 2017-08-12T17:02:35.824Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb':
-    timeStamp: 2017-08-12T17:02:35.843Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti9.pfb':
     timeStamp: 2017-08-12T17:02:35.855Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb':
-    timeStamp: 2017-08-12T17:02:35.867Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\tex\context\base\mkii\supp-pdf.mkii':
     timeStamp: 2017-08-12T17:16:58.949Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty':
-    timeStamp: 2017-08-12T17:12:09.638Z
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\etexcmds.sty':
+    timeStamp: 2017-08-12T17:18:01.401Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty':
-    timeStamp: 2017-08-12T17:18:01.404Z
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifluatex.sty':
+    timeStamp: 2017-08-12T17:12:06.666Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty':
-    timeStamp: 2017-08-12T17:18:01.406Z
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifpdf.sty':
+    timeStamp: 2017-08-12T17:18:01.414Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty':
-    timeStamp: 2017-08-12T17:18:01.408Z
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\infwarerr.sty':
+    timeStamp: 2017-08-12T17:18:01.417Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\CaseFolding.txt':
-    timeStamp: 2017-08-12T17:27:09.804Z
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvdefinekeys.sty':
+    timeStamp: 2017-08-12T17:18:01.419Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\SpecialCasing.txt':
-    timeStamp: 2017-08-12T17:27:09.812Z
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvsetkeys.sty':
+    timeStamp: 2017-08-12T17:18:01.421Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\UnicodeData.txt':
-    timeStamp: 2017-08-12T17:27:09.819Z
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ltxcmds.sty':
+    timeStamp: 2017-08-12T17:18:01.422Z
     jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty':
+    timeStamp: 2017-08-12T17:18:01.435Z
+    jobNames: []
+    type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\amsfonts.sty':
     timeStamp: 2017-08-12T17:02:36.056Z
     jobNames: []
@@ -2974,39 +2653,16 @@ files:
     timeStamp: 2017-08-12T17:02:38.124Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\base\omscmr.fd':
-    timeStamp: 2017-08-12T17:13:47.918Z
-    jobNames: []
-    type: FontDescription
   'c:\texlive\2017\texmf-dist\tex\latex\booktabs\booktabs.sty':
     timeStamp: 2017-08-12T17:04:38.943Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty':
-    timeStamp: 2017-08-12T17:04:56.935Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\caption\caption3.sty':
-    timeStamp: 2017-08-12T17:04:56.939Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\etoolbox\etoolbox.sty':
-    timeStamp: 2017-08-12T17:09:14.140Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg':
-    timeStamp: 2017-08-12T17:11:14.650Z
-    jobNames: []
   'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\graphics.cfg':
     timeStamp: 2017-08-12T17:11:14.651Z
     jobNames: []
   'c:\texlive\2017\texmf-dist\tex\latex\graphics-def\pdftex.def':
     timeStamp: 2017-08-12T17:11:14.879Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty':
-    timeStamp: 2017-08-12T17:11:14.031Z
-    jobNames: []
-    type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\graphics\graphics.sty':
     timeStamp: 2017-08-12T17:11:14.040Z
     jobNames: []
@@ -3023,62 +2679,11 @@ files:
     timeStamp: 2017-08-12T17:11:14.051Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hpdftex.def':
-    timeStamp: 2017-08-12T17:11:47.874Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty':
-    timeStamp: 2017-08-12T17:11:47.886Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty':
-    timeStamp: 2017-08-12T17:11:47.891Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def':
-    timeStamp: 2017-08-12T17:11:47.895Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3-code.tex':
-    timeStamp: 2017-08-12T17:13:40.293Z
-    jobNames: []
-    type: TeX
-  'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3.sty':
-    timeStamp: 2017-08-12T17:13:40.297Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\l3pdfmode.def':
-    timeStamp: 2017-08-12T17:13:40.321Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\latex\l3packages\xparse\xparse.sty':
-    timeStamp: 2017-08-12T17:13:42.394Z
-    jobNames: []
-    type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\epstopdf-sys.cfg':
     timeStamp: 2017-08-12T17:14:06.436Z
     jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg':
-    timeStamp: 2017-08-12T17:14:06.437Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg':
-    timeStamp: 2017-08-12T17:14:39.906Z
-    jobNames: []
-  'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty':
-    timeStamp: 2017-08-12T17:14:39.908Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty':
-    timeStamp: 2017-08-12T17:14:39.911Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty':
-    timeStamp: 2017-08-12T17:14:39.917Z
-    jobNames: []
-    type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\natbib\natbib.sty':
     timeStamp: 2017-08-12T17:17:24.785Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty':
-    timeStamp: 2017-08-12T17:18:01.515Z
     jobNames: []
     type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\epstopdf-base.sty':
@@ -3091,10 +2696,6 @@ files:
     type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\kvoptions.sty':
     timeStamp: 2017-08-12T17:18:01.571Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty':
-    timeStamp: 2017-08-12T17:18:01.593Z
     jobNames: []
     type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\revtex\aps10pt4-1.rtx':
@@ -3111,18 +2712,6 @@ files:
     timeStamp: 2017-08-12T17:21:59.719Z
     jobNames: []
     type: LaTeXClass
-  'c:\texlive\2017\texmf-dist\tex\latex\sauerj\parcolumns.sty':
-    timeStamp: 2017-08-12T17:22:25.865Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\sauerj\processkv.sty':
-    timeStamp: 2017-08-12T17:22:25.866Z
-    jobNames: []
-    type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\subfig\subfig.sty':
-    timeStamp: 2017-08-12T17:23:50.250Z
-    jobNames: []
-    type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\tex\latex\textcase\textcase.sty':
     timeStamp: 2017-08-12T17:25:05.802Z
     jobNames: []
@@ -3143,10 +2732,6 @@ files:
     timeStamp: 2017-08-12T17:27:22.385Z
     jobNames: []
     type: LaTeXStyle
-  'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty':
-    timeStamp: 2017-08-12T17:28:39.150Z
-    jobNames: []
-    type: LaTeXStyle
   'c:\texlive\2017\texmf-dist\web2c\texmf.cnf':
     timeStamp: 2017-08-12T17:13:28.468Z
     jobNames: []
@@ -3160,21 +2745,339 @@ files:
     timeStamp: 2017-08-12T17:29:09.150Z
     jobNames: []
   apssampNotes.bib:
-    timeStamp: 2018-04-20T00:51:07.390Z
+    timeStamp: 2018-04-19T06:10:54.869Z
     jobNames: []
     hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
     type: BibTeXFile
-  apssamp.synctex.gz:
-    timeStamp: 2018-04-20T00:51:07.930Z
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmex10.pfb':
+    timeStamp: 2017-08-12T17:02:35.703Z
     jobNames: []
-    hash: ZiMmkfj7PYLR8S6FI4yJSFEoRlZbTfz6Y4knAwWcduY=
-    type: SyncTeX
-  apssamp.pdf:
-    timeStamp: 2018-04-20T00:51:07.927Z
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi7.pfb':
+    timeStamp: 2017-08-12T17:02:35.729Z
     jobNames: []
-    hash: LIt5ZIAeEBgwnraC8nKx7piEyuNrSFK18pODC3Ev1DA=
-    type: PortableDocumentFormat
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb':
+    timeStamp: 2017-08-12T17:02:35.814Z
+    jobNames: []
+  apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg:
+    timeStamp: 2018-04-18T22:40:01.489Z
+    jobNames: []
+    hash: /0WFhtAxbn8T1/6Wjtlnax8CSTPWtV+tehSR/3qBy44=
+    type: BibTeXLog
+    subType: BibTeX
+  apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog:
+    timeStamp: 2018-04-18T22:42:23.557Z
+    jobNames: []
+    value:
+      messages:
+        - severity: warning
+          name: BibTeX
+          text: 'to sort, need author or key in radarlee'
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 5
+              end: 5
+        - severity: warning
+          name: BibTeX
+          text: empty year in radarlee
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 6
+              end: 6
+        - severity: warning
+          name: BibTeX
+          text: empty year in leefilter
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 7
+              end: 7
+        - severity: warning
+          name: BibTeX
+          text: empty year in stough
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 8
+              end: 8
+        - severity: warning
+          name: BibTeX
+          text: empty booktitle in tahereh_2014
+          log:
+            file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+            range:
+              start: 9
+              end: 9
+      inputs:
+        - "apssamp.aux\r"
+        - "c:\\texlive\\2017\\texmf-dist\\bibtex\\bst\\beebe\\apa.bst\r"
+        - "apssampNotes.bib\r"
+        - "apssamp.bib\r"
+      outputs: []
+      calls: []
+    type: ParsedBibTeXLog
+  apssamp.fls:
+    timeStamp: 2018-04-19T06:10:55.355Z
+    jobNames: []
+    hash: ucv5A0m/DGW6QGTgfvYDzywdKB+PC2TYaQqobWSCp4k=
+    type: FileListing
+  Figures\3dvol.png:
+    timeStamp: 2018-04-18T22:37:15.486Z
+    jobNames: []
+    hash: oX5bnXayqzhFJcWHaiyEumdKFxs5k43jbqFalNYl/rk=
+  apssamp.out:
+    timeStamp: 2018-04-19T06:10:55.294Z
+    jobNames: []
+    hash: 1gTbxZ2bQdsJctBfeY0UY36TWPC05unpLBH+RmDo98g=
+    type: OUT
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx10.pfb':
+    timeStamp: 2017-08-12T17:02:35.675Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb':
+    timeStamp: 2017-08-12T17:02:35.822Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty':
+    timeStamp: 2017-08-12T17:12:09.638Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty':
+    timeStamp: 2017-08-12T17:18:01.404Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty':
+    timeStamp: 2017-08-12T17:18:01.406Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty':
+    timeStamp: 2017-08-12T17:18:01.408Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hpdftex.def':
+    timeStamp: 2017-08-12T17:11:47.874Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty':
+    timeStamp: 2017-08-12T17:11:47.886Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty':
+    timeStamp: 2017-08-12T17:11:47.891Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def':
+    timeStamp: 2017-08-12T17:11:47.895Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg':
+    timeStamp: 2017-08-12T17:14:06.437Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg':
+    timeStamp: 2017-08-12T17:14:39.906Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty':
+    timeStamp: 2017-08-12T17:14:39.908Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty':
+    timeStamp: 2017-08-12T17:14:39.917Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty':
+    timeStamp: 2017-08-12T17:18:01.515Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty':
+    timeStamp: 2017-08-12T17:18:01.593Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm':
+    timeStamp: 2017-08-12T17:02:35.505Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm':
+    timeStamp: 2017-08-12T17:02:35.508Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm':
+    timeStamp: 2017-08-12T17:02:35.512Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm':
+    timeStamp: 2017-08-12T17:02:35.514Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm':
+    timeStamp: 2017-08-12T17:02:35.517Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm':
+    timeStamp: 2017-08-12T17:05:38.949Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm':
+    timeStamp: 2017-08-12T17:05:38.964Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm':
+    timeStamp: 2017-08-12T17:05:38.967Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm':
+    timeStamp: 2017-08-12T17:05:38.972Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm':
+    timeStamp: 2017-08-12T17:05:39.083Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm':
+    timeStamp: 2017-08-12T17:05:39.085Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm':
+    timeStamp: 2017-08-12T17:05:39.097Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb':
+    timeStamp: 2017-08-12T17:02:35.867Z
+    jobNames: []
+  apssamp.sync-conflict-20180418-154253-3VP7TJR.blg:
+    timeStamp: 2018-04-18T22:40:57.472Z
+    jobNames: []
+    hash: /0WFhtAxbn8T1/6Wjtlnax8CSTPWtV+tehSR/3qBy44=
+    type: BibTeXLog
+    subType: BibTeX
+  apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog:
+    timeStamp: 2018-04-18T22:48:30.916Z
+    jobNames: []
+    value:
+      messages:
+        - severity: warning
+          name: BibTeX
+          text: 'to sort, need author or key in radarlee'
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 5
+              end: 5
+        - severity: warning
+          name: BibTeX
+          text: empty year in radarlee
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 6
+              end: 6
+        - severity: warning
+          name: BibTeX
+          text: empty year in leefilter
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 7
+              end: 7
+        - severity: warning
+          name: BibTeX
+          text: empty year in stough
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 8
+              end: 8
+        - severity: warning
+          name: BibTeX
+          text: empty booktitle in tahereh_2014
+          log:
+            file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+            range:
+              start: 9
+              end: 9
+      inputs:
+        - "apssamp.aux\r"
+        - "c:\\texlive\\2017\\texmf-dist\\bibtex\\bst\\beebe\\apa.bst\r"
+        - "apssampNotes.bib\r"
+        - "apssamp.bib\r"
+      outputs: []
+      calls: []
+    type: ParsedBibTeXLog
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm':
+    timeStamp: 2017-08-12T17:05:39.089Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb':
+    timeStamp: 2017-08-12T17:02:35.843Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty':
+    timeStamp: 2017-08-12T17:14:39.911Z
+    jobNames: []
+    type: LaTeXStyle
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm':
+    timeStamp: 2017-08-12T17:05:38.974Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb':
+    timeStamp: 2017-08-12T17:02:35.749Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb':
+    timeStamp: 2017-08-12T17:02:35.756Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg':
+    timeStamp: 2017-08-12T17:11:14.650Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty':
+    timeStamp: 2017-08-12T17:11:14.031Z
+    jobNames: []
+    type: LaTeXStyle
+  Figures\2dslice.png:
+    timeStamp: 2018-04-18T23:00:13.613Z
+    jobNames: []
+    hash: ++auQQ50jBxBA4AEpwyeQH++dRR4RHhSxu/JQWwD/O4=
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm':
+    timeStamp: 2017-08-12T17:02:35.507Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm':
+    timeStamp: 2017-08-12T17:02:35.512Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm':
+    timeStamp: 2017-08-12T17:02:35.516Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm':
+    timeStamp: 2017-08-12T17:05:38.951Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm':
+    timeStamp: 2017-08-12T17:05:38.966Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm':
+    timeStamp: 2017-08-12T17:05:39.085Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb':
+    timeStamp: 2017-08-12T17:02:35.824Z
+    jobNames: []
+  'c:\texlive\2017\texmf-dist\tex\latex\base\omscmr.fd':
+    timeStamp: 2017-08-12T17:13:47.918Z
+    jobNames: []
+    type: FontDescription
+  'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr7.pfb':
+    timeStamp: 2017-08-12T17:02:35.753Z
+    jobNames: []
+  apssamp.bbl:
+    timeStamp: 2018-04-19T06:10:54.135Z
+    jobNames: []
+    hash: zwkz5MGNnGRQsReZ9JH8bowVjaE9kFFquvTmaMOlSME=
 rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: apssamp.yaml-ParsedYAML
+        type: default
+      - file: apssamp.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: 'C:\Users\J-Bro\AppData\Roaming\dicy\config.yaml-ParsedYAML'
+        type: default
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Migrate
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
   - name: ApplyOptions
     command: load
     phase: execute
@@ -3200,6 +3103,17 @@ rules:
         type: default
     outputs:
       - file: 'C:\Users\J-Bro\AppData\Roaming\dicy\config.yaml-ParsedYAML'
+        type: default
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - apssamp.tex
+    inputs:
+      - file: apssamp.tex
+        type: default
+    outputs:
+      - file: apssamp.tex-ParsedLaTeXMagic
         type: default
   - name: AssignJobNames
     command: load
@@ -3227,39 +3141,11 @@ rules:
         type: default
       - file: apssamp.aux
         type: default
-      - file: Figures\2dslice.png
-        type: default
-      - file: Figures\3dvol.png
-        type: default
-      - file: Figures\Ku.png
-        type: default
-      - file: Figures\SNNFilt.png
-        type: default
-      - file: Figures\composite.png
-        type: default
-      - file: Figures\hybrid.png
-        type: default
-      - file: Figures\kusquares.jpg
-        type: default
-      - file: Figures\lee.png
-        type: default
-      - file: Figures\orig.png
-        type: default
-      - file: Figures\snn.png
-        type: default
       - file: Figures\specklefilter2.png
-        type: default
-      - file: Figures\wiener.png
-        type: default
-      - file: apssamp.bbl
         type: default
       - file: apssamp.lof
         type: default
-      - file: apssamp.lol
-        type: default
       - file: apssamp.lot
-        type: default
-      - file: apssamp.out
         type: default
       - file: apssamp.toc
         type: default
@@ -3269,37 +3155,15 @@ rules:
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
         type: default
       - file: >-
-          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
-        type: default
-      - file: >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
         type: default
-      - file: >-
-          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
-        type: default
-      - file: >-
-          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm'
         type: default
       - file: >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
         type: default
       - file: >-
-          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
-        type: default
-      - file: >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
-        type: default
-      - file: >-
-          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
-        type: default
-      - file: >-
-          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
         type: default
       - file: >-
           c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -3323,91 +3187,47 @@ rules:
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx5.tfm'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx7.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx9.tfm'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmib10.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr10.tfm'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr12.tfm'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr9.tfm'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti9.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx10.pfb'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx12.pfb'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx9.pfb'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmex10.pfb'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi10.pfb'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi7.pfb'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr10.pfb'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr9.pfb'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti9.pfb'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\context\base\mkii\supp-pdf.mkii'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty'
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\etexcmds.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty'
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifluatex.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ifpdf.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty'
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\infwarerr.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\CaseFolding.txt'
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvdefinekeys.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\SpecialCasing.txt'
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\kvsetkeys.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\generic\unicode-data\UnicodeData.txt'
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\ltxcmds.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\pdftexcmds.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\amsfonts\amsfonts.sty'
         type: default
@@ -3427,23 +3247,11 @@ rules:
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\amsmath\amstext.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\base\omscmr.fd'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\booktabs\booktabs.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\caption\caption3.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\etoolbox\etoolbox.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\graphics.cfg'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics-def\pdftex.def'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics\graphics.sty'
         type: default
@@ -3453,45 +3261,15 @@ rules:
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics\trig.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hpdftex.def'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3-code.tex'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\expl3.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\l3kernel\l3pdfmode.def'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\l3packages\xparse\xparse.sty'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\epstopdf-sys.cfg'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\natbib\natbib.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\epstopdf-base.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\grfext.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\kvoptions.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\revtex\aps10pt4-1.rtx'
         type: default
@@ -3500,12 +3278,6 @@ rules:
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\revtex\revsymb4-1.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\revtex\revtex4-1.cls'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\sauerj\parcolumns.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\sauerj\processkv.sty'
-        type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\subfig\subfig.sty'
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\textcase\textcase.sty'
         type: default
@@ -3517,8 +3289,6 @@ rules:
         type: default
       - file: 'c:\texlive\2017\texmf-dist\tex\latex\url\url.sty'
         type: default
-      - file: 'c:\texlive\2017\texmf-dist\tex\latex\xpatch\xpatch.sty'
-        type: default
       - file: 'c:\texlive\2017\texmf-dist\web2c\texmf.cnf'
         type: default
       - file: 'c:\texlive\2017\texmf-var\fonts\map\pdftex\updmap\pdftex.map'
@@ -3527,29 +3297,139 @@ rules:
         type: default
       - file: 'c:\texlive\2017\texmf.cnf'
         type: default
-    outputs:
-      - file: apssamp.aux
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmex10.pfb'
         type: default
-      - file: apssamp.fls
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmmi7.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy10.pfb'
+        type: default
+      - file: Figures\3dvol.png
+        type: default
+      - file: apssamp.out
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmbx10.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy7.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\ifxetex\ifxetex.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\gettitlestring.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-generic.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\generic\oberdiek\hobsub-hyperref.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hpdftex.def'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\hyperref.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\nameref.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\hyperref\pd1enc.def'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\latexconfig\hyperref.cfg'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.cfg'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\listings.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstmisc.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\auxhook.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\oberdiek\rerunfilecheck.sty'
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm'
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi9.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy6.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy9.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmtt9.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmtt9.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmti10.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmti10.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\listings\lstlang1.sty'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmr8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr5.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr8.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics-cfg\color.cfg'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\graphics\color.sty'
+        type: default
+      - file: Figures\2dslice.png
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm'
+        type: default
+      - file: >-
+          c:\texlive\2017\texmf-dist\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmbx8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmmi8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\tfm\public\cm\cmsy8.tfm'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmsy8.pfb'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\tex\latex\base\omscmr.fd'
+        type: default
+      - file: 'c:\texlive\2017\texmf-dist\fonts\type1\public\amsfonts\cm\cmr7.pfb'
+        type: default
+      - file: apssamp.bbl
+        type: default
+    outputs:
+      - file: apssamp.pdf
+        type: target
+      - file: apssamp.aux
         type: default
       - file: apssamp.log
         type: default
+      - file: apssamp.synctex.gz
+        type: target
       - file: apssamp.lof
         type: default
-      - file: apssamp.lol
-        type: default
       - file: apssamp.lot
-        type: default
-      - file: apssamp.out
         type: default
       - file: apssamp.toc
         type: default
       - file: apssampNotes.bib
         type: default
-      - file: apssamp.synctex.gz
-        type: target
-      - file: apssamp.pdf
-        type: target
+      - file: apssamp.fls
+        type: default
+      - file: apssamp.out
+        type: default
   - name: ParseBibTeXLog
     command: build
     phase: execute
@@ -3571,6 +3451,37 @@ rules:
         type: default
     outputs:
       - file: apssamp.log-ParsedLaTeXLog
+        type: default
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - apssamp.aux
+    inputs:
+      - file: apssamp.aux
+        type: default
+    outputs:
+      - file: apssamp.aux-ParsedLaTeXAuxilary
+        type: default
+  - name: BibTeX
+    command: build
+    phase: execute
+    parameters:
+      - apssamp.aux
+      - apssamp.aux-ParsedLaTeXAuxilary
+    inputs:
+      - file: apssamp.aux
+        type: default
+      - file: apssamp.aux-ParsedLaTeXAuxilary
+        type: default
+      - file: apssamp.log-ParsedLaTeXLog
+        type: default
+      - file: apssamp.blg-ParsedBibTeXLog
+        type: default
+    outputs:
+      - file: apssamp.blg
+        type: default
+      - file: apssamp.bbl
         type: default
   - name: LogProducedTargets
     command: build
@@ -3639,61 +3550,16 @@ rules:
     parameters: []
     inputs: []
     outputs: []
-  - name: ApplyOptions
-    command: load
-    phase: initialize
-    parameters: []
-    inputs:
-      - file: dicy.yaml-ParsedYAML
-        type: default
-      - file: apssamp.yaml-ParsedYAML
-        type: default
-      - file: apssamp.tex-ParsedLaTeXMagic
-        type: default
-      - file: dicy-instance.yaml-ParsedYAML
-        type: default
-      - file: 'C:\Users\J-Bro\AppData\Roaming\dicy\config.yaml-ParsedYAML'
-        type: default
-    outputs: []
-  - name: LoadAndValidateCache
-    command: load
-    phase: initialize
-    parameters: []
-    inputs: []
-    outputs: []
-  - name: Migrate
-    command: load
-    phase: initialize
-    parameters: []
-    inputs: []
-    outputs: []
-  - name: ParseLaTeXMagic
-    command: load
-    phase: execute
-    parameters:
-      - apssamp.tex
-    inputs:
-      - file: apssamp.tex
-        type: default
-    outputs:
-      - file: apssamp.tex-ParsedLaTeXMagic
-        type: default
-  - name: Clean
-    command: clean
-    phase: execute
-    parameters: []
-    inputs: []
-    outputs: []
-  - name: ParseLaTeXAuxilary
+  - name: ParseBibTeXLog
     command: build
     phase: execute
     parameters:
-      - apssamp.aux
+      - apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
     inputs:
-      - file: apssamp.aux
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
         type: default
     outputs:
-      - file: apssamp.aux-ParsedLaTeXAuxilary
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
         type: default
   - name: ParseFileListing
     command: build
@@ -3706,23 +3572,60 @@ rules:
     outputs:
       - file: apssamp.fls-ParsedFileListing
         type: default
-  - name: BibTeX
+  - name: ParseBibTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg
+        type: default
+    outputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
+        type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154057-4ZE4PK4.blg-ParsedBibTeXLog
+        type: default
+    outputs: []
+  - name: ParseBibTeXLog
     command: build
     phase: execute
     parameters:
-      - apssamp.aux
-      - apssamp.aux-ParsedLaTeXAuxilary
+      - apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
     inputs:
-      - file: apssamp.aux
-        type: default
-      - file: apssamp.aux-ParsedLaTeXAuxilary
-        type: default
-      - file: apssamp.log-ParsedLaTeXLog
-        type: default
-      - file: apssamp.blg-ParsedBibTeXLog
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
         type: default
     outputs:
-      - file: apssamp.bbl
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
         type: default
-      - file: apssamp.blg
+  - name: ParseBibTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg
         type: default
+    outputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
+        type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
+    inputs:
+      - file: apssamp.sync-conflict-20180418-154253-3VP7TJR.blg-ParsedBibTeXLog
+        type: default
+    outputs: []
+  - name: Clean
+    command: clean
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
