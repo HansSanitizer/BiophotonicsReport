@@ -106,7 +106,7 @@ pra,
 
 
 	\begin{abstract}
-		Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimensional images of biological tissues. The practice came into prominence in 1991 from the developments of Huang et al. Since its introduction advancements in laser diode technology and imagery has allowed for micrometer resolution and is widely used in the Ophthalmology.\cite{bhende_optical_2018} Although OCT produces great resolution there are drawbacks. OCT is notorious for producing a phenomenon called ‘speckle noise’. This review will utilize previous work done using imagery filters to reduce speckle noise and as well create our own simulations to confer.
+		Optical Coherence Tomography (OCT) is a non-invasive method of producing 2-Dimensional images of biological tissues. The practice came into prominence in 1991 from the developments of Huang et al. Since its introduction, advancements in laser diode technology and imagery has allowed for micrometer resolution and is widely used in Ophthalmology.\cite{bhende_optical_2018} Although OCT produces great resolution there are drawbacks. OCT is notorious for producing a phenomenon called ‘speckle noise’. This review will utilize previous work done using imagery filters to reduce speckle noise and as well create our own simulations to confer.
 	\end{abstract}
 
 	%\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
@@ -118,10 +118,10 @@ pra,
 	\makeatletter
 	\let\toc@pre\relax
 	\let\toc@post\relax
-	\makeatother	
+	\makeatother
   	\listoffigures
   	\listoftables
-  	\addcontentsline{toc}{section}{\hspace{15 pt} List of Code}
+  	\addcontentsline{toc}{section}{\hspace{19 pt}List of Code}
 	\makeatletter
 	\renewcommand\lstlistoflistings{
 		\begin{center}
@@ -131,7 +131,7 @@ pra,
 		\@starttoc{lol}
 	}
 	\makeatother
-	
+
   	\lstlistoflistings
   	%\makeatletter
 
@@ -147,17 +147,19 @@ pra,
 
 	\section{\label{sec:level1}OCT Identified Problem and Suggested Solution}
 	\subsection{\label{sec:level2} The Problem of Speckle Noise}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.8\linewidth]{Figures/specklefilter2}
-		\caption{On the left is an image put through a speckle filter in Matlab. On the right is the original image.}
-		\label{fig:specklefilter2}
-	\end{figure}
+	
 		A problem with using an OCT interferometer is that ‘speckle’ noise exists, which ultimately reduces the quality of the image. Speckle is a phenomenon that is caused by interference of the reflected wave at the photo-detector. Speckle noise is evident when trying to image non-fluid structures (such as hard tissue). As the wave propagates it becomes distorted due to “low-angle multiple forward scattering and diffuse multiple backscattering of coherent photons”. \cite{Popescu2007}
-	
+
 		In OCT interferometry imaging, photons are detected after one backscattering event for most relevant information, but when a wave is propagated through a dense biological sample it experiences numerous scattering events (in OCT interferometry). These scattering events increase the likelihood for photons to change their travel distance comparative to their airborne path which results in speckle noise reducing the image quality. \cite{Popescu2007}
-	
+
 		To display the effects of speckling on an image refer to Figure \ref{fig:specklefilter2}. Using $imnoise(I,'speckle',v)$ in Matlab to create a filter that would add multiplicative noise to an image. As seen on the left the image resolution is decreased significantly after adding speckling noise especially in the area of high light reflectivity off of the table.
+		
+		\begin{figure}[htb!]
+			\centering
+			\includegraphics[width=0.8\linewidth]{Figures/specklefilter2}
+			\caption{On the left is an image put through a speckle filter in Matlab. On the right is the original image.}
+			\label{fig:specklefilter2}
+		\end{figure}
 
 	\subsection{\label{sec:level2} Possible Solutions for Speckle Noise}
 		As technology progress in imaging processing, techniques are being developed to help reduces the effects of speckle noise when using OCT. Some of these methods include decreasing spatial and temporal coherence of the laser used. While more trivial techniques such as phase-domain processing and zero-adjustments are used to improve image quality due to speckle noise. \cite{Popescu2007}
@@ -165,12 +167,12 @@ pra,
 	\section{\label{sec:level1} OCT Image Aquisition and Preparation}
 
 	\subsection{\label{sec:level2} Aquiring and Visualizing OCT Images}
-		While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a publised proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to view an interactive 3D volume from the provided .mat files using a script published on MathWorks file exchange titled \textit{3D Volume Visualization} \cite{stough}. A capture of the visualizan can be seen in Figure \ref{fig:3dvol}.
+		While many published reports contain printed images of OCT captures, getting raw data was necessary to make realistic observations on the effects of using digital filtering. 3D OCT captures of healthy individuals were obtained from a published proceeding comparing OCT scans of healthy individuals \cite{tahereh_2014}. The scans were provided in .mat file format. The size of each volume provided by these scans was 650 x 512 x 128 voxels. Each voxel had a resolution of 11.72 x 46.88 x 3.54 $\mu$m. We were able to view an interactive 3D volume from the provided .mat files using a script published on MathWorks file exchange titled \textit{3D Volume Visualization} \cite{stough}. A capture of the visualization can be seen in Figure \ref{fig:3dvol}.
 
 
 
 	\subsection{\label{sec:level2} Slicing and Preparing a 2D Image for Processing}
-		Upon importing the .mat files into Matlab, they took the form of a 650 x 512 x 128 double data type named d3. The Matlab code shown in Listing \ref{code:2dslicecode} shows the process of taking the middle XY slice and creating a greyscale image.
+		Upon importing the .mat files into Matlab, they took the form of a 650 x 512 x 128 double data type named d3. The Matlab code shown in Listing \ref{code:2dslicecode} shows the process of taking the middle XY slice and creating a gray-scale image.
 		\begin{lstlisting}[language=Matlab, caption=Take Slice of 3D Volume, label=code:2dslicecode]
 			%Take Slice of 3D Volume
 			SliceL = d3(:,:,64);
@@ -195,10 +197,10 @@ pra,
 		The results of quality measurements for each applied filter method are listed in Table \ref{tab:compare}. The methods for obtaining the quality metrics are described in the following paragraphs.
 
 	\subsection{\label{sec:level2} Contrast to Noise (CNR) Estimation}
-		The code shown in Listing \ref{code:cnr} outlines the process for aquiring the contrast to noise estimation. The process starts with taking the 2D image matrix and converting it into a 1D array.
-	
-		The maximum and minimum values are extracted from the 1D matrix, and then the standard deviation is calculated. The final CNR is calculated equivalent to the formula:
-	
+		The code shown in Listing \ref{code:cnr} outlines the process for acquiring the contrast to noise estimation. The process starts with taking the 2D image matrix and converting it into a 1D array.
+
+		The maximum and minimum values are extracted from the 1D matrix, and then the standard deviation is calculated. The final CNR is obtained equivalent to the formula:
+
 		$$CNR = (\frac{Max-Min}{\text{Standard Deviation}})$$
 
 		\begin{lstlisting}[language=Matlab, caption=Estimate Contrast to Noise Ratio, label=code:cnr]
@@ -210,36 +212,36 @@ pra,
 		mse=std(img(:));
 		cnr=((ima-imi)./mse)
 		\end{lstlisting}
-	
+
 		In terms of value dictating quality, the higher the value the better.
 	\subsection{\label{sec:level2} Estimated Noise Level}
 		The Estimated Noise Level (ENL) is calculated using a method implemented in a Matlab function by Ashish Meshram \cite{meshram_noise_2014}. This implementation is based off of the paper titled \textit{Single-Image Noise Level Estimation for Blind Denoising}  by Xinhao Liu, and team \cite{Liu_2013}.
-		
+
 		The paper described a patch-based noise level estimation algorithm. A patch of the image is selected based on having a lack of high frequency content. This and other selected patches are then used to provide an estimation of the noise level.
 	\subsection{\label{sec:level2} Naturalness Image Quality Evaluator (NIQE) No-Reference Image Quality Score}
-	
-		Due to the fact that all obtained images need to be evaluated as is, with no reference image to compare to, it is advantageous to use metrics that do not require a reference image. Matlab has a built-in function called niqe that returns a value (lower is better, indicating higher perceptual quality) using the Naturalness Image Quality Evaluator based off the work of Anish Mittal and team \cite{NIQE_2013}.
-		
+
+		Due to the fact that all obtained images need to be evaluated as is, with no reference image to compare to, it is advantageous to use metrics that do not require a reference image. Matlab has a built-in function called \textit{niqe} that returns a value (lower is better, indicating higher perceptual quality) using the Naturalness Image Quality Evaluator based off the work of Anish Mittal and team \cite{NIQE_2013}.
+
 		The creators of this algorithm claim that the results are comparable to other No Reference Image Quality Assessment (NR IQA) models that require opinions from humans about the quality of images from large data-sets to train them.
-	
+
   	\subsection{\label{sec:level2} Omission of Mean Squared Error (MSE) for OCT Images}
 
-	  	In the analysis of filter quality, a metric called Mean Squared Error (MSE) is often used to compare an image without any distortion to an image that has been distorted and then filtered. In our analysis we do not have the ability to do this, because we have an image that has distortion inherent in its aquisition.
-	
+	  	In the analysis of filter quality, a metric called Mean Squared Error (MSE) is often used to compare an image without any distortion to an image that has been distorted and then filtered. In our analysis we do not have the ability to do this, because we have an image that has distortion inherent in its acquisition.
+
 	  	In the paper titled \textit{Speckle reduction in optical coherence tomography images using digital filtering} \cite{ozcan_speckle_2007} the reference image used for calculating the MSE of filters was a composite image made from using multiple scans see Figure \ref{fig:Composite} for the reference image used in the paper (where N=64). In these images the N value represents the number of scans used to make the composite.
-	
+
 	  	\begin{figure*}
 	    	\centering
 	    	\includegraphics[width=0.8\linewidth]{Figures/composite}
 	    	\caption{OCT Captures with Increasing Numbers of Composite Images Used, Adapted From \cite{ozcan_speckle_2007}}
 	    	\label{fig:Composite}
 	 	\end{figure*}
-	
+
 	  	Since we do not have access to a composite image, or an image without inherent distortion, an MSE evaluation of filtering will be omitted from our report.
 	\section{\label{sec:level1} Scope of DSP Methods Used}
 
 	This report will focus on 2D image filtering methods which can be applied using Matlab, and due to our resources we will not be able to make composite captures from multiple scans.
-	
+
 	\subsection{\label{sec:level2} Wiener Filter}
 	The 2D Wiener filter is a processing technique which is capable of not only improving resolution but as well signal-to-noise (SNR) ratio of particular image. This low-pass filter is an optimal trade-off between inverse filtering and noise smoothing. This filter is also referred to as a local linear minimum mean square error which means [LLMMSE] it is the optimal estimator in the sense of mean squared error (MSE). Where LLMMSE and MSE is determined by:
 $$
@@ -272,7 +274,7 @@ Where $R_{xx}$ is the received signal, N is the length, then there are N equatio
 
 
 \subsection{\label{sec:level2} Lee Filter}
-The Lee filter applies a spatial filter to each pixel which filters data based on local statistics calculated within a square window. The value of the center pixel is replaced by a value calculated using the neighbouring pixels. Implements similar characteristics of the Wiener filter in the sense it uses MSE but also has edge preserving features \cite{leefilter}. The pixels are classified into:
+The Lee filter applies a spatial filter to each pixel which filters data based on local statistics calculated within a square window. The value of the center pixel is replaced by a value calculated using the neighboring pixels. Implements similar characteristics of the Wiener filter in the sense it uses MSE but also has edge preserving features \cite{leefilter}. The pixels are classified into:
 \\
 Homogenous: where the pixel value is replaced by an average of the filter window
 \\
@@ -303,7 +305,7 @@ Where:
   Refer to Figure \ref{fig:LeeKu} for the resulting image.
 \subsection{\label{sec:level2} Kuwahara Filter}
 
-The Kuwahara filter is an edge preserving non-linear smoothing filter. It operates by taking a square window of some pixels in an image. The size of this window is constrained to the formula $2a + 1$, where $a$ is an integer. This window can be divided into 4 smaller regions as shown in Figure \ref{fig:kusquares} \cite{Papari_2007}. The letters (a,b,c,d) correspond to the regions. The highlighted center cross of the image shows the overlapping regions. The center pixel will take the mean value that is most common amoungst all sub regions. The Kuwahara filter is a sliding window filter, meaning that this process will be continued over the entire image.
+The Kuwahara filter is an edge preserving non-linear smoothing filter. It operates by taking a square window of some pixels in an image. The size of this window is constrained to the formula $2a + 1$, where $a$ is an integer. This window can be divided into 4 smaller regions as shown in Figure \ref{fig:kusquares} \cite{Papari_2007}. The letters (a,b,c,d) correspond to the regions. The highlighted center cross of the image shows the overlapping regions. The center pixel will take the mean value that is most common amongst all sub regions. The Kuwahara filter is a sliding window filter, meaning that this process will be continued over the entire image.
 
 For processing the OCT image, we used a Matlab implemenation by Luca Balbi \cite{balbi_faster}.
 \begin{figure}
@@ -328,7 +330,7 @@ The SNN filter is another sliding window filter that (like Kuwahara) aims to pre
 
 The Matlab implemenation by Art Barnes was chosen for applying this filter method to the OCT images \cite{barnes_snn_2005}. Refer to Figure \ref{fig:SNNhybrid} for the resulting image.
 \subsection{\label{sec:level2} Hybrid Median Filter}
-The Hybrid Median Filter is a nonlinear filter with better edge preseving characteristics than just an ordinary median filter. This is done by ranking spatial directions individually. This particular filter, filters matrix A using an $N \times N$ box. To apply the median filter three (3) medians are calculated in the $N \times N$ box. Where MR is the median of the horizontal and vertical R pixels, MD is the median of the diagonal D pixels. Using the 2 median and the central pixel value gives the filter value \cite{rabie_adaptive_2004}. For a $N=5$ matrix would give the following matrix:
+The Hybrid Median Filter is a nonlinear filter with better edge preserving characteristics than just an ordinary median filter. This is done by ranking spatial directions individually. This particular filter, filters matrix A using an $N \times N$ box. To apply the median filter three (3) medians are calculated in the $N \times N$ box. Where MR is the median of the horizontal and vertical R pixels, MD is the median of the diagonal D pixels. Using the 2 median and the central pixel value gives the filter value \cite{rabie_adaptive_2004}. For a $N=5$ matrix would give the following matrix:
 
 $$
 A =
@@ -345,12 +347,12 @@ $$
 
 The Matlab implementation by Damian Garcia was chosen for our analysis of this filter method on OCT images\cite{garcia_hybrid_2010}. The output image of this filter can be seen in Figure \ref{fig:SNNhybrid}.
 \section{\label{sec:level1} Conclusion}
-From the data gathered during the Matlab simulations, it is clear to see that image processing techniques greatly reduce noise and still have the ability to preserve edges. The calculated performance metrics used in matlab confirm this. Between the 5 different filters used the Wiener Filter performed the best in having a high Contrast to Noise Ratio (CNR) and Naturalness Image Quality Score (NIQE). This filter also produced a significantly lower Estimated Noise Level (ENL) as well. Refer to Table \ref{tab:compare} for the Matlab simulation quality metrics results. Although the Wiener filter performed the strongest using these quality metrics, the Hybrid Median filter and Lee filter would be more optimal for reducing speckle noise in OCT imagery. Both these filters have better edge preserving algorithms and still have quality CNR and NIQE scores.
+From the data gathered during the Matlab simulations, it is clear to see that image processing techniques greatly reduce noise and still have the ability to preserve edges. The calculated performance metrics used in Matlab confirm this. Between the 5 different filters used the Wiener Filter performed the best in having a high Contrast to Noise Ratio (CNR) and Naturalness Image Quality Score (NIQE). This filter also produced a significantly lower Estimated Noise Level (ENL) as well. Refer to Table \ref{tab:compare} for the Matlab simulation quality metrics results. Although the Wiener filter performed the strongest using these quality metrics, the Hybrid Median filter and Lee filter would be more optimal for reducing speckle noise in OCT imagery. Both these filters have better edge preserving algorithms and still have quality CNR and NIQE scores.
 
 \begin{table*}[]
   \begin{tabular}{|c|c|c|c|}
     \hline
-    Filter Used & CNR & ENL & NIQE \\
+    Filter Used & CNR(dB) & ENL & NIQE \\
     \hline
     No Filter & 9.0375 & 0.0247 & 10.823  \\
     \hline
